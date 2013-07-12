@@ -39844,7 +39844,7 @@ OpenWrt Developers Team <openwrt-devel@openwrt.org>
 
 Source-Makefile: feeds/packages/utils/usb-modeswitch/Makefile
 Package: usb-modeswitch
-Version: 1.2.5-2
+Version: 1.2.6-2
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libusb
 Menu-Depends: 
 Provides: 
@@ -39852,7 +39852,7 @@ Section: utils
 Category: Utilities
 Title: USB ModeSwitch
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
-Source: usb-modeswitch-1.2.5.tar.bz2
+Source: usb-modeswitch-1.2.6.tar.bz2
 Type: ipkg
 Description:   A mode switching tool for controlling
   "flip flop" (multiple device) USB gear.
@@ -41930,7 +41930,7 @@ OpenWrt Developers Team <openwrt-devel@openwrt.org>
 
 Source-Makefile: feeds/packages/utils/usb-modeswitch-data/Makefile
 Package: usb-modeswitch-data
-Version: 20121109-1
+Version: 20130610-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread usb-modeswitch
 Menu-Depends: 
 Provides: 
@@ -41938,7 +41938,7 @@ Section: utils
 Category: Utilities
 Title: USB ModeSwitch - Dongle configuration database
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
-Source: usb-modeswitch-data-20121109.tar.bz2
+Source: usb-modeswitch-data-20130610.tar.bz2
 Type: ipkg
 Description:   Configuration database for usb-modeswitch.
   Contains definitions for many USB devices required to
