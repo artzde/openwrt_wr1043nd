@@ -88,7 +88,6 @@ CONFIGURE_ARGS += \
 	--disable-libuuid	\
 	--disable-libblkid	\
 	--disable-uuidd		\
-	--disable-tls		\
 	--disable-nls		\
 	--disable-rpath
 

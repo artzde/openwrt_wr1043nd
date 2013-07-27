@@ -2,7 +2,7 @@ Source-Makefile: feeds/packages/net/wget/Makefile
 Package: wget
 Submenu: File Transfer
 Version: 1.13.4-1
-Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libopenssl +librt
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libopenssl +librt +libpthread
 Menu-Depends: 
 Provides: 
 Build-Variant: ssl

@@ -282,7 +282,6 @@ FFMPEG_CONFIGURE:= \
 	--pkg-config="pkg-config" \
 	\
 	--enable-gpl \
-	--enable-nonfree \
 	--enable-version3 \
 	\
 	--disable-doc \

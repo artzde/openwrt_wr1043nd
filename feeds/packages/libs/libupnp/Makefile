@@ -50,6 +50,10 @@ define Package/libupnp-sample/description
 TVcontrolpoint & tvdevice sample applications run inside /etc/upnp-tvdevice/
 endef
 
+CONFIGURE_ARGS += \
+	--disable-samples \
+	--enable-ipv6 \
+
 define Build/InstallDev
 	$(INSTALL_DIR) $(1)/usr/include
 	$(CP) $(PKG_INSTALL_DIR)/usr/include/upnp $(1)/usr/include/

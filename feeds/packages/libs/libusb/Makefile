@@ -40,6 +40,8 @@ define Build/Configure
 	$(call Build/Configure/Default, \
 		--enable-shared \
 		--enable-static \
+		--disable-build-docs \
+		--enable-debug=no \
 	)
 endef
 

@@ -42,12 +42,13 @@ CONFIGURE_ARGS += \
 	--enable-static \
 	--with-c14n \
 	--without-catalog \
-	--with-debug \
+	--without-debug \
 	--without-docbook \
 	--with-html \
 	--without-ftp \
 	--without-http \
 	--without-iconv \
+	--enable-ipv6=yes \
 	--without-iso8859x \
 	--without-legacy \
 	--with-output \

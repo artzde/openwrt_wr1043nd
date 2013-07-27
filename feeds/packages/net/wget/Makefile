@@ -38,7 +38,7 @@ endef
 
 define Package/wget
 $(call Package/wget/Default)
-  DEPENDS+= +libopenssl +librt
+  DEPENDS+= +libopenssl +librt +libpthread
   TITLE+= (with SSL support)
   VARIANT:=ssl
 endef
@@ -61,7 +61,10 @@ endef
 
 CONFIGURE_ARGS+= \
 	--disable-rpath \
-	--disable-iri
+	--disable-iri	\
+	--disable-debug	\
+	--enable-threads=posix	\
+	--disable-nls	\
 
 ifeq ($(BUILD_VARIANT),ssl)
 	CONFIGURE_ARGS+= \
