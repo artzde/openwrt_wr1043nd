@@ -15,7 +15,7 @@ sed -i 's|height: 1em;|height: 2em;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjust
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/allnet.sh
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wndr3700/network
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wndr3700 -rf
-#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wzr-hp-g301nh
+#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wzr-hp-g301nh -rf
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/uci-defaults/wrt160nl
 
 sed -i 's|/etc/init.d/miniupnpd disable|/etc/init.d/miniupnpd start|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9873/ipkg-ar71xx/luci-app-upnp/etc/uci-defaults/luci-upnp
