@@ -23,4 +23,4 @@ sed -i 's|/etc/init.d/miniupnpd disable|/etc/init.d/miniupnpd start|g' $HOME/ope
 sed -i 's|/etc/init.d/miniupnpd disable|/etc/init.d/miniupnpd start|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9869/applications/luci-upnp/dist/etc/uci-defaults/luci-upnp
 #sed -i 's"service_start /usr/sbin/nmbd -D"egrep -q 'disable.+netbios.*=.*(true|yes|1)' /var/etc/smb.conf || service_start /usr/sbin/nmbd -D"g'
 cp  $HOME/openwrt/TL-WR1043ND/attitude_adjustment/Modified_LuCI_Files/*.lua /$HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9869/modules/admin-full/luasrc/model/cbi/admin_network/
-touch /openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9869/modules/admin-core/root/etc/init.d/luci_fixtime
+touch $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9869/modules/admin-core/root/etc/init.d/luci_fixtime
