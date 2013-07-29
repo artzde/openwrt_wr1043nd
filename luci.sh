@@ -11,12 +11,12 @@ sed -i 's|height: 1em;|height: 2em;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjust
 sed -i 's|height: 1em;|height: 2em;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9873/themes/bootstrap/dist/www/luci-static/bootstrap/cascade.css
 sed -i 's|height: 1em;|height: 2em;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/root-ar71xx/www/luci-static/bootstrap/cascade.css
 
-#rm $HOME/openwrt/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/allnet.sh
-#rm $HOME/openwrt/attitude_adjustment/target/linux/ar71xx/base-files/etc/hotplug.d/net/10-ar922x-led-fix
-#rm $HOME/openwrt/attitude_adjustment/target/linux/ar71xx/base-files/etc/uci-defaults/wrt160nl
-#rm $HOME/openwrt/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/allnet.sh
-#rm $HOME/openwrt/attitude_adjustment/target/target/linux/ar71xx/base-files/lib/upgrade/dir825.sh
-#rm -rf $HOME/openwrt/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig
+#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/dir825.sh
+#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/allnet.sh
+#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wndr3700/network
+#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wndr3700 -rf
+#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wzr-hp-g301nh
+#rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/uci-defaults/wrt160nl
 
 sed -i 's|/etc/init.d/miniupnpd disable|/etc/init.d/miniupnpd start|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9873/ipkg-ar71xx/luci-app-upnp/etc/uci-defaults/luci-upnp
 sed -i 's|/etc/init.d/miniupnpd disable|/etc/init.d/miniupnpd start|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9873/applications/luci-upnp/root/etc/uci-defaults/luci-upnp
