@@ -275,6 +275,7 @@ FFMPEG_CONFIGURE:= \
 	--cross-prefix="$(TARGET_CROSS)" \
 	--arch="$(ARCH)" \
 	--target-os=linux \
+	--cpu=24kc \
 	--prefix="/usr" \
 	--enable-shared \
 	--enable-static \
