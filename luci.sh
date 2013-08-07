@@ -10,7 +10,8 @@ sed -i 's|_("UPNP")|_("UPnP")|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/b
 sed -i 's|height: 1em;|height: 2em;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9876/themes/bootstrap/htdocs/luci-static/bootstrap/cascade.css
 sed -i 's|height: 1em;|height: 2em;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9876/themes/bootstrap/dist/www/luci-static/bootstrap/cascade.css
 sed -i 's|height: 1em;|height: 2em;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/root-ar71xx/www/luci-static/bootstrap/cascade.css
-
+#Fix BootStrap Menu hyperlink
+sed -i 's|<a class="menu" href="<%=pcdata(href)%>">|<a class="menu">|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_r2_uClibc-0.9.33.2/luci-0.11+svn9876/themes/bootstrap/luasrc/view/themes/bootstrap/header.htm
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/dir825.sh
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/allnet.sh
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wndr3700/network
