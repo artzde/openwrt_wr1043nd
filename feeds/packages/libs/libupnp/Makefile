@@ -53,6 +53,8 @@ endef
 CONFIGURE_ARGS += \
 	--disable-samples \
 	--enable-ipv6 \
+	--disable-client \
+	--disable-webserver \
 
 define Build/InstallDev
 	$(INSTALL_DIR) $(1)/usr/include

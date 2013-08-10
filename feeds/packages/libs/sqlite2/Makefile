@@ -69,7 +69,7 @@ define Build/Configure
 		--enable-static \
 		, \
 		config_BUILD_CC="$(HOSTCC)" \
-		config_BUILD_CFLAGS="-O2" \
+		config_BUILD_CFLAGS="-Os" \
 		config_TARGET_CC="$(TARGET_CC)" \
 		config_TARGET_CFLAGS="$(TARGET_CFLAGS)" \
 		config_TARGET_READLINE_INC="$(TARGET_CPPFLAGS)" \

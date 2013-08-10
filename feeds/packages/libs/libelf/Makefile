@@ -30,6 +30,7 @@ CONFIGURE_ARGS += \
 	--enable-shared \
 	--enable-static \
 	--enable-elf64=yes \
+	--disable-nls \
 
 CONFIGURE_VARS += \
 	mr_cv_target_elf=yes \

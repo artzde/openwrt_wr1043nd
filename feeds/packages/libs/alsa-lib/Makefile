@@ -44,6 +44,8 @@ define Build/Configure
 		--without-debug \
 		$(SOFT_FLOAT_CONFIG_OPTION) \
 		--with-versioned=no \
+		--enable-symbolic-functions \
+		--disable-old-symbols \
 	)
 endef
 

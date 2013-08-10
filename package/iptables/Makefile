@@ -357,7 +357,7 @@ CONFIGURE_ARGS += \
 	--enable-libipq \
 	--with-kernel="$(LINUX_DIR)/user_headers" \
 	--with-xtlibdir=/usr/lib/iptables \
-	--enable-static
+	--enable-static \
 
 MAKE_FLAGS := \
 	$(TARGET_CONFIGURE_OPTS) \

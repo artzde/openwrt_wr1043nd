@@ -89,7 +89,13 @@ CONFIGURE_ARGS += \
 	--disable-libblkid	\
 	--disable-uuidd		\
 	--disable-nls		\
-	--disable-rpath
+	--disable-rpath		\
+	--disable-debugfs	\
+	--disable-backtrace	\
+	--disable-imager	\
+	--disable-resizer	\
+	--disable-defrag	\
+	--disable-testio-debugfs
 
 define Build/Prepare
 	$(call Build/Prepare/Default)

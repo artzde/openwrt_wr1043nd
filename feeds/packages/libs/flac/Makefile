@@ -40,6 +40,7 @@ define Build/Configure
 		--disable-ogg \
 		--disable-oggtest \
 		--disable-debug \
+		--disable-rpath	\
 	)
 endef
 

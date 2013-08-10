@@ -47,8 +47,10 @@ define Build/Configure
 		--cross-prefix=$(TARGET_CROSS) \
 		--prefix=/usr \
 		--enable-shared \
-		--enable-static \
+		--disable-static \
 		--disable-debug \
+		--disable-developer \
+		--enable-strip \
 	)
 endef
 
