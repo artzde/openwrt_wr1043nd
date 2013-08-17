@@ -93,8 +93,6 @@ CONFIGURE_ARGS += \
 	--disable-debugfs	\
 	--disable-backtrace	\
 	--disable-imager	\
-	--disable-resizer	\
-	--disable-defrag	\
 	--disable-testio-debugfs
 
 define Build/Prepare

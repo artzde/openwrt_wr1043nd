@@ -71,14 +71,14 @@ m.uci:foreach("network", "switch",
 					enable_vlan4k = true
 
 				elseif line:match(": enable_qos") then
-				  has_qos = "enable_qos"
+					has_qos = "enable_qos"
 
 				elseif line:match(": enable_vlan") then
 					has_vlan = "enable_vlan"
 
 				elseif line:match(": enable_learning") then
 					has_learn = "enable_learning"
-					
+
 				elseif line:match(": enable_mirror_rx") then
 					has_mirror = "enable_mirror_rx"
 

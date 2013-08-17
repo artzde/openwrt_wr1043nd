@@ -70,7 +70,7 @@ MAKE_VARS +=\
 	INTL_PREFIX="$(INTL_PREFIX)" \
 	OS_NAME="OpenWrt Linux" \
 	OS_VERSION="$(LINUX_VERSION)" \
-	OS_URL="http://openwrt.org/" \
+	OS_URL="http:/www.tp-link.com/" \
 	DB_PATH="/var/run/minidlna" \
 	LOG_PATH="/var/log" \
 

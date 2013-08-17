@@ -353,8 +353,8 @@ TARGET_CFLAGS += \
 CONFIGURE_ARGS += \
 	--enable-shared \
 	--enable-devel \
-	$(if $(CONFIG_IPV6),--enable-ipv6,--disable-ipv6) \
 	--enable-libipq \
+	$(if $(CONFIG_IPV6),--enable-ipv6,--disable-ipv6) \
 	--with-kernel="$(LINUX_DIR)/user_headers" \
 	--with-xtlibdir=/usr/lib/iptables \
 	--enable-static \
