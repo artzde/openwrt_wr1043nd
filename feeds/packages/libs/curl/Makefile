@@ -52,7 +52,7 @@ TARGET_CFLAGS += $(FPIC)
 CONFIGURE_ARGS += \
 	--enable-shared \
 	--enable-static \
-	--disable-thread \
+	--enable-thread \
 	--enable-cookies \
 	--enable-crypto-auth \
 	--enable-nonblocking \

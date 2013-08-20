@@ -39,7 +39,6 @@ CONFIGURE_ARGS+= \
 	--disable-rpath \
 	--without-libiconv-prefix \
 	--without-libintl-prefix \
-	--disable-nls	\
 	--disable-docs	\
 
 TARGET_CFLAGS += $(FPIC)
