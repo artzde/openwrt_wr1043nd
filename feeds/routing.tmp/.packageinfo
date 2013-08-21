@@ -73,7 +73,7 @@ Source-Makefile: feeds/routing/olsrd/Makefile
 Package: olsrd
 Menu: 1
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libpthread
 Menu-Depends: 
 Provides: 
@@ -81,7 +81,7 @@ Section: net
 Category: Network
 Title: OLSR (Optimized Link State Routing) daemon
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: OLSR (Optimized Link State Routing) daemon
 http://www.olsr.org/
@@ -90,7 +90,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-arprefresh
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -98,7 +98,7 @@ Section: net
 Category: Network
 Title: Kernel ARP cache refresh plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Kernel ARP cache refresh plugin
 http://www.olsr.org/
@@ -107,7 +107,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-dot-draw
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -115,7 +115,7 @@ Section: net
 Category: Network
 Title: Dot topology information plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Dot topology information plugin
 http://www.olsr.org/
@@ -124,7 +124,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-bmf
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd +kmod-tun
 Menu-Depends: 
 Provides: 
@@ -132,7 +132,7 @@ Section: net
 Category: Network
 Title: Basic multicast forwarding plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Basic multicast forwarding plugin
 http://www.olsr.org/
@@ -141,7 +141,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-dyn-gw
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -149,7 +149,7 @@ Section: net
 Category: Network
 Title: Dynamic internet gateway plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Dynamic internet gateway plugin
 http://www.olsr.org/
@@ -158,7 +158,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-dyn-gw-plain
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -166,7 +166,7 @@ Section: net
 Category: Network
 Title: Dynamic internet gateway plain plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Dynamic internet gateway plain plugin
 http://www.olsr.org/
@@ -175,7 +175,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-httpinfo
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -183,7 +183,7 @@ Section: net
 Category: Network
 Title: Small informative web server plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Small informative web server plugin
 http://www.olsr.org/
@@ -192,7 +192,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-jsoninfo
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -200,7 +200,7 @@ Section: net
 Category: Network
 Title: Small informative plugin with JSON output
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Small informative plugin with JSON output
 http://www.olsr.org/
@@ -209,7 +209,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-mdns
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -217,7 +217,7 @@ Section: net
 Category: Network
 Title: MDNS/Zeroconf/Bonjour packet distribution 
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: MDNS/Zeroconf/Bonjour packet distribution 
 http://www.olsr.org/
@@ -226,7 +226,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-nameservice
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -234,7 +234,7 @@ Section: net
 Category: Network
 Title: Lightweight hostname resolver plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Lightweight hostname resolver plugin
 http://www.olsr.org/
@@ -243,7 +243,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-p2pd
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -251,7 +251,7 @@ Section: net
 Category: Network
 Title: Peer to Peer Discovery plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Peer to Peer Discovery plugin
 http://www.olsr.org/
@@ -260,7 +260,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-pgraph
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -268,7 +268,7 @@ Section: net
 Category: Network
 Title: output network topology for pgraph
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: output network topology for pgraph
 http://www.olsr.org/
@@ -277,7 +277,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-pud
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -285,7 +285,7 @@ Section: net
 Category: Network
 Title: Position Update Distribution plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Position Update Distribution plugin
 http://www.olsr.org/
@@ -294,7 +294,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-quagga
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -302,7 +302,7 @@ Section: net
 Category: Network
 Title: Quagga plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Quagga plugin
 http://www.olsr.org/
@@ -311,7 +311,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-secure
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -319,7 +319,7 @@ Section: net
 Category: Network
 Title: Message signing plugin to secure routing domain
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Message signing plugin to secure routing domain
 http://www.olsr.org/
@@ -328,7 +328,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-sgwdynspeed
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -336,7 +336,7 @@ Section: net
 Category: Network
 Title: Smart Gateway dynamic speed plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Smart Gateway dynamic speed plugin
 http://www.olsr.org/
@@ -345,7 +345,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-txtinfo
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -353,7 +353,7 @@ Section: net
 Category: Network
 Title: Small informative web server plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Small informative web server plugin
 http://www.olsr.org/
@@ -362,7 +362,7 @@ Saverio Proto <zioproto@gmail.com>
 
 Package: olsrd-mod-watchdog
 Submenu: Routing and Redirection
-Version: 0.6.5.4-1
+Version: 0.6.6-1
 Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread olsrd
 Menu-Depends: 
 Provides: 
@@ -370,7 +370,7 @@ Section: net
 Category: Network
 Title: Watchdog plugin
 Maintainer: Saverio Proto <zioproto@gmail.com>
-Source: olsrd-0.6.5.4.tar.bz2
+Source: olsrd-0.6.6.tar.bz2
 Type: ipkg
 Description: Watchdog plugin
 http://www.olsr.org/
