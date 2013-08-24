@@ -7,7 +7,8 @@
 /env
 /dl
 /.config.old
-/bin
+/bin/ar71xx/*
+!/bin/ar71xx/openwrt-ar71xx-generic-tl-wr1043nd-v1*.bin
 /build_dir
 /staging_dir
 /tmp
