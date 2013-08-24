@@ -1,6 +1,5 @@
 *.o
 .DS_Store
-.svn
 .directory
 .gitattributes
 .*.swp
