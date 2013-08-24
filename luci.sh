@@ -16,6 +16,12 @@ sed -i 's|<a class="menu" href="<%=pcdata(href)%>">|<a class="menu">|g' $HOME/op
 sed -i 's|padding: 10px 10px 11px;|padding: 10px 10px 11px;	cursor: pointer;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9896/themes/bootstrap/htdocs/luci-static/bootstrap/cascade.css
 sed -i 's|padding: 10px 10px 11px;|padding: 10px 10px 11px;	cursor: pointer;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9896/themes/bootstrap/dist/www/luci-static/bootstrap/cascade.css
 sed -i 's|padding: 10px 10px 11px;|padding: 10px 10px 11px;	cursor: pointer;|g' $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/root-ar71xx/www/luci-static/bootstrap/cascade.css
+
+rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9896/protocols/ppp/luasrc/model/cbi/admin_network/proto_pppoa.lua
+rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9896/protocols/ppp/dist/usr/lib/lua/luci/model/cbi/admin_network/proto_pppoa.lua
+
+cp $HOME/openwrt/TL-WR1043ND/attitude_adjustment/Modified_Protocol/proto_ppp.lua $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9896/protocols/ppp/luasrc/model/network/
+cp $HOME/openwrt/TL-WR1043ND/attitude_adjustment/Modified_Protocol/proto_ppp.lua $HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9896/protocols/ppp/dist/usr/lib/lua/luci/model/network/
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/dir825.sh
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/lib/upgrade/allnet.sh
 #rm $HOME/openwrt/TL-WR1043ND/attitude_adjustment/target/linux/ar71xx/base-files/etc/defconfig/wndr3700/network
