@@ -1,0 +1,2 @@
+6357ea7c6be7c56fa19c549d76bf449a  bin/ar71xx/openwrt-ar71xx-generic-tl-wr1043nd-v1-squashfs-factory.bin
+dfc2ffe3f2a933f8f678b9896ab5e3f7  bin/ar71xx/openwrt-ar71xx-generic-tl-wr1043nd-v1-squashfs-sysupgrade.bin

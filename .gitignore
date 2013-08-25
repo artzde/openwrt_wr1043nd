@@ -8,6 +8,7 @@
 /.config.old
 /bin/ar71xx/*
 !/bin/ar71xx/openwrt-ar71xx-generic-tl-wr1043nd-v1*.bin
+!/bin/ar71xx/md5sum.txt
 /build_dir
 /staging_dir
 /tmp
