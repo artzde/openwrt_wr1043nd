@@ -18,9 +18,9 @@ LINUX_VERSION:=3.3.8
 include $(INCLUDE_DIR)/target.mk
 
 DEFAULT_PACKAGES += \
-	kmod-leds-gpio kmod-gpio-button-hotplug kmod-wdt-ath79 swconfig \
-	kmod-ledtrig-default-on kmod-ledtrig-timer kmod-ledtrig-netdev \
-	kmod-ath9k wpad
+	kmod-gpio-button-hotplug kmod-wdt-ath79 kmod-ath9k swconfig \
+	kmod-leds-gpio kmod-ledtrig-default-on kmod-ledtrig-netdev \
+	wpad
 
 define Target/Description
 	Build firmware images for Atheros AR7xxx/AR9xxx based boards.
