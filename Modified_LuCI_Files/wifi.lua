@@ -392,12 +392,6 @@ if hwtype == "mac80211" then
 	dtim_period.optional = true
 	dtim_period.placeholder = 2
 	
-	mfp = s:taboption("general", ListValue, "ieee80211w", translate("Management Frame Protection"),"IEEE 802.11w Management Frame Protection")
-	mfp.optional = true
-	mfp:value("0", translate("Disabled"))
-	mfp:value("1", translate("Optional"))
-	mfp:value("2", translate("Required"))
-	
 end
 
 ------------------- WiFI-Encryption -------------------
