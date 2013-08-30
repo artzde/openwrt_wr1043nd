@@ -391,7 +391,7 @@ if hwtype == "mac80211" then
 	dtim_period = s:taboption("general", Value, "dtim_period", translate("DTIM Interval"),"Delivery Traffic Indication Message Interval")
 	dtim_period.optional = true
 	dtim_period.placeholder = 2
-	
+
 	isolate = s:taboption("general", Flag, "isolate", translate("Wireless Client Isolation"))
 	isolate.optional = true
 	isolate:depends({mode="ap"})
