@@ -328,7 +328,7 @@ if hwtype == "mac80211" then
 		mode:value("mesh", "802.11s")
 	end
 
-	mode:value("ahdemo", translate("Pseudo Ad-Hoc (ahdemo)"))
+	mode:value("ahdemo", translate("Pseudo Ad-Hoc"))
 	mode:value("monitor", translate("Monitor"))
 	bssid:depends({mode="adhoc"})
 	bssid:depends({mode="sta"})
@@ -388,13 +388,14 @@ if hwtype == "mac80211" then
 	short_preamble = s:taboption("general", Flag, "short_preamble", translate("Short Preamble"))
 	short_preamble.default = short_preamble.enabled
 
+	isolate = s:taboption("general", Flag, "isolate", translate("Wireless Client Isolation"))
+	isolate.optional = true
+	isolate:depends({mode="ap"})
+
 	dtim_period = s:taboption("general", Value, "dtim_period", translate("DTIM Interval"),"Delivery Traffic Indication Message Interval")
 	dtim_period.optional = true
 	dtim_period.placeholder = 2
 
-	isolate = s:taboption("general", Flag, "isolate", translate("Wireless Client Isolation"))
-	isolate.optional = true
-	isolate:depends({mode="ap"})
 end
 
 ------------------- WiFI-Encryption -------------------
