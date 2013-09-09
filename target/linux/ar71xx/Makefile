@@ -18,7 +18,7 @@ LINUX_VERSION:=3.3.8
 include $(INCLUDE_DIR)/target.mk
 
 DEFAULT_PACKAGES += \
-	kmod-gpio-button-hotplug kmod-wdt-ath79 kmod-ath9k swconfig \
+	kmod-gpio-button-hotplug kmod-ath9k kmod-wdt-ath79 swconfig \
 	kmod-leds-gpio kmod-ledtrig-default-on kmod-ledtrig-netdev \
 	wpad
 
