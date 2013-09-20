@@ -64,7 +64,7 @@ ar71xx_board_detect() {
 	esac
 
 	case "$machine" in
-	*TL-WR* | *TL-WA* | *TL-MR*)
+	*TL-WR* | *TL-WA* | *TL-MR* | *TL-WD*)
 		tplink_board_detect "$machine"
 		;;
 	esac

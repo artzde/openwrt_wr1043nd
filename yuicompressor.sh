@@ -1,5 +1,5 @@
 #! /bin/bash
-directory=$HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9902/*
+directory=$HOME/openwrt/TL-WR1043ND/attitude_adjustment/build_dir/target-mips_uClibc-0.9.33.2/luci-0.11+svn9907/*
 for file in $( find $directory -name '*.css' )
 do
   echo $file
