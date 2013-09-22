@@ -8,19 +8,19 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=usb-modeswitch
-PKG_VERSION:=1.2.6
+PKG_VERSION:=2.0.1
 PKG_RELEASE:=2
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=http://www.draisberghof.de/usb_modeswitch
-PKG_MD5SUM:=3cd804ad2dd4cb61fbd77a5cc033496c
+PKG_MD5SUM:=e48d4419d0574d342bb183f7465556d0
 
 include $(INCLUDE_DIR)/package.mk
 
 define Package/usb-modeswitch
   SECTION:=utils
   CATEGORY:=Utilities
-  DEPENDS:=+libusb
+  DEPENDS:=+libusb-1.0
   TITLE:=USB ModeSwitch
   URL:=http://www.draisberghof.de/usb_modeswitch/
 endef
@@ -32,7 +32,7 @@ endef
 
 define Build/Compile
 	$(TARGET_CC) $(TARGET_CFLAGS) $(TARGET_CPPFLAGS) $(TARGET_LDFLAGS) \
-		-lusb \
+		-lusb-1.0  \
 		-o $(PKG_BUILD_DIR)/usb_modeswitch-OpenWrt \
 				$(PKG_BUILD_DIR)/usb_modeswitch.c
 endef
