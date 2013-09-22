@@ -11,8 +11,8 @@ Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: all
 Installed-Size: 1169
 Filename: 6in4_14-1_all.ipk
-Size: 1847
-MD5Sum: 7a8f0456541acd23c3fc6f9dfa7d4cd5
+Size: 1846
+MD5Sum: a4270c298759f44bbc211c077801f6c3
 Description:  Provides support for 6in4 tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
@@ -30,8 +30,8 @@ Maintainer: Stéphan Kochen <stephan@kochen.nl>
 Architecture: all
 Installed-Size: 3061
 Filename: 6rd_4-1_all.ipk
-Size: 3707
-MD5Sum: e095e5c3944899fb8ac19a2676a815cf
+Size: 3711
+MD5Sum: b7a30b238cd4923791ae3f92a35fd6c6
 Description:  Provides support for 6rd tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
@@ -47,10 +47,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 23966
+Installed-Size: 23963
 Filename: 6relayd_2013-07-26-2ed520c500b0fbb484cfad5687eb39a0da43dcf7_ar71xx.ipk
-Size: 24699
-MD5Sum: 650c9de27fd5091e70e35a5e51605244
+Size: 24691
+MD5Sum: 34fd94d611a40e5a881fe6067d08068f
 Description:  6relayd is a daemon for serving and relaying IPv6 management protocols to
  configure clients and downstream routers.
  
@@ -69,16 +69,16 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: all
-Installed-Size: 1008
+Installed-Size: 1009
 Filename: 6to4_12-1_all.ipk
-Size: 1684
-MD5Sum: bfa19463c28598d135e0d6d9d35495a1
+Size: 1676
+MD5Sum: bc2d985d33cec96d1e315e6d26b7eb5f
 Description:  Provides support for 6to4 tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
 
 Package: base-files
-Version: 118.2-r38033
+Version: 118.2-r38093
 Depends: libc, netifd
 Provides: 
 Source: package/base-files
@@ -88,10 +88,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 35717
-Filename: base-files_118.2-r38033_ar71xx.ipk
-Size: 36522
-MD5Sum: ad01a7ed015383217f6ee00fb2414d34
+Installed-Size: 35720
+Filename: base-files_118.2-r38093_ar71xx.ipk
+Size: 36519
+MD5Sum: d46b2e267ed097ea329a6184d80fbdf6
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: blkid
@@ -105,10 +105,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 13311
+Installed-Size: 13313
 Filename: blkid_2.21.2-1_ar71xx.ipk
-Size: 13950
-MD5Sum: c349f8a5d4e1e38bece69cb64985728c
+Size: 13962
+MD5Sum: a647dd6b8996ad8b421169d6f3f458ac
 Description:  The blkid program is the command-line interface to working with the libblkid
  library.
 
@@ -123,10 +123,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 6075
+Installed-Size: 6074
 Filename: block-mount_0.2.0-9_ar71xx.ipk
-Size: 6893
-MD5Sum: 0325a71c4a82d3408273e5d22e547a8c
+Size: 6892
+MD5Sum: 8d4920fbbf88f2f506be5c031efc95e1
 Description:  Scripts used to mount and check block devices (filesystems and swap), as well
  as hotplug scripts to automount and check block devices when hotplug event (e.g.
  from plugging in a device) occurs.
@@ -145,10 +145,10 @@ Essential: yes
 Priority: optional
 Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 259005
+Installed-Size: 259011
 Filename: busybox_1.19.4-6_ar71xx.ipk
-Size: 257891
-MD5Sum: a7eb61d72ab30c754e43868e18e81101
+Size: 257898
+MD5Sum: 320dfc9318f0a09e3961d2171ec5cad8
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -163,10 +163,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 8980
+Installed-Size: 8979
 Filename: chat_2.4.5-10_ar71xx.ipk
-Size: 9619
-MD5Sum: fe7627d2bd201a1fca1f5a80de94a95f
+Size: 9620
+MD5Sum: 308566b596579c8c64e2969e474200da
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
 
@@ -181,10 +181,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 23069
+Installed-Size: 23074
 Filename: comgt_0.32-21_ar71xx.ipk
 Size: 23771
-MD5Sum: 18946971d8d453cc5e037eb1e420c8f9
+MD5Sum: c4e67698fc956f7d1a98403dae092b69
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -200,10 +200,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: all
-Installed-Size: 4008
+Installed-Size: 4009
 Filename: ddns-scripts_1.0.0-21_all.ipk
-Size: 4664
-MD5Sum: c771b6083c05c5aec9150a66c763f491
+Size: 4658
+MD5Sum: b188506c1529afcbfb228b6d9c07e6f4
 Description:  A highly configurable set of scripts for doing
  dynamic dns updates
 
@@ -218,10 +218,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 88674
+Installed-Size: 88671
 Filename: dnsmasq_2.66-2_ar71xx.ipk
-Size: 89020
-MD5Sum: 8767255a4212f981399707102b92f626
+Size: 89033
+MD5Sum: 5407eedd8489319c8824cabcb5769dd0
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: dropbear
@@ -235,10 +235,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 86747
+Installed-Size: 86752
 Filename: dropbear_2011.54-2_ar71xx.ipk
-Size: 86965
-MD5Sum: 9ac5627874c12c009d9559220d0bcdf2
+Size: 86957
+MD5Sum: 5683757278fbea7f1f09afa88b0a83bc
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: ds-lite
@@ -252,10 +252,10 @@ Essential: no
 Priority: optional
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: all
-Installed-Size: 848
+Installed-Size: 849
 Filename: ds-lite_1-1_all.ipk
-Size: 1517
-MD5Sum: 799718badcd879351ee650da85a3ad8d
+Size: 1523
+MD5Sum: a65f095bce828d7bda1528f53303bce0
 Description:  Provides support for Dual-Stack Lite in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
@@ -271,10 +271,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5274
+Installed-Size: 5276
 Filename: etherwake_1.09-3_ar71xx.ipk
-Size: 6087
-MD5Sum: c73a869ada08140c76960136ac617405
+Size: 6092
+MD5Sum: 366cf3ce61dc30bc26c3972537a92455
 Description:  You can wake up WOL compliant Computers which have been powered down to 
  sleep mode or start WOL compliant Computers with a BIOS feature.
  WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you 
@@ -292,10 +292,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 51956
+Installed-Size: 51958
 Filename: firewall_2013-08-14_ar71xx.ipk
-Size: 52215
-MD5Sum: 2b701eef077962cf486840ca84db3069
+Size: 52209
+MD5Sum: c4dd2469193a1d033af0c37ef6de2146
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: freifunk-p2pblock
@@ -309,10 +309,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1319
+Installed-Size: 1318
 Filename: freifunk-p2pblock_3_ar71xx.ipk
-Size: 2038
-MD5Sum: 429458a0c2f90ab86fd1715a1e2317f4
+Size: 2042
+MD5Sum: 6957c2cf63753b0da61a625ac98d7515
 Description:  Simple Addon for Freifunk which use iptables layer7-, ipp2p- and recent-modules 
  to block p2p/filesharing traffic
 
@@ -327,10 +327,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 4929
+Installed-Size: 4934
 Filename: hd-idle_1.04-1_ar71xx.ipk
-Size: 5582
-MD5Sum: 625184d65a4f5be7f73bf1a40c4d3a15
+Size: 5581
+MD5Sum: 1ba43fc9a5489d8066337f85a0cce11b
 Description:  Another idle-daemon for attached hard drives
 
 Package: hotplug2
@@ -346,8 +346,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 14985
 Filename: hotplug2_1.0-beta-4_ar71xx.ipk
-Size: 15528
-MD5Sum: ad0ed586cd373c3a669ad992606a777d
+Size: 15534
+MD5Sum: 184fc4fa68f1b3a56c56497b7295ab6b
 Description:  Hotplug2 is a trivial replacement of some of the UDev functionality
  in a tiny pack, intended for Linux early userspace: Init RAM FS and InitRD.
  This is an implementation of Hotplug2-1.0-beta
@@ -363,10 +363,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 43885
+Installed-Size: 43887
 Filename: ip6tables_1.4.10-5_ar71xx.ipk
-Size: 44380
-MD5Sum: 118d59a87e3c1e1172183970245d9703
+Size: 44391
+MD5Sum: 1bb04894724c9ac31437ced9edb13ef1
 Description:  IPv6 firewall administration tool
 
 Package: ip
@@ -380,10 +380,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 91251
+Installed-Size: 91253
 Filename: ip_3.3.0-2_ar71xx.ipk
-Size: 91786
-MD5Sum: 27e016b13bd91c040d730a5b0208881f
+Size: 91781
+MD5Sum: 6dba72c87c95f26074afb363dd648efc
 Description:  Routing control utility
 
 Package: ipset
@@ -397,10 +397,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 56443
+Installed-Size: 56444
 Filename: ipset_6.11-2_ar71xx.ipk
-Size: 56635
-MD5Sum: 9b993f3747c2a7544a7f2c6bc4535a46
+Size: 56645
+MD5Sum: 0af38f6bc5bf1873c690a331f232aaf6
 Description:  IPset administration utility
 
 Package: iptables-mod-conntrack-extra
@@ -414,10 +414,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 9443
+Installed-Size: 9442
 Filename: iptables-mod-conntrack-extra_1.4.10-5_ar71xx.ipk
-Size: 10149
-MD5Sum: 50cb72eaa65f16c27f17ae211803cc4a
+Size: 10141
+MD5Sum: d130906409699525031c703f90d35861
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -441,10 +441,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5602
+Installed-Size: 5604
 Filename: iptables-mod-extra_1.4.10-5_ar71xx.ipk
-Size: 6228
-MD5Sum: 81675ae4deb6e03c30e06d5e8da4c8b4
+Size: 6229
+MD5Sum: 013196b346dde507cacfe4c77631fc62
 Description:  Other extra iptables extensions.
  
  Matches:
@@ -466,10 +466,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 14998
+Installed-Size: 14999
 Filename: iptables-mod-filter_1.4.10-5_ar71xx.ipk
-Size: 15640
-MD5Sum: 9370a71d8a0b3078c3289449d1c3c88f
+Size: 15649
+MD5Sum: d4da2a1459407519a8ccb30edbcffe47
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -489,10 +489,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 26919
+Installed-Size: 26921
 Filename: iptables-mod-ipopt_1.4.10-5_ar71xx.ipk
-Size: 27575
-MD5Sum: c44c6ec5407fc54db969efaed4ba8407
+Size: 27588
+MD5Sum: e3bcc53c6ade858436bad5cb6b472e05
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -525,10 +525,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 2799
+Installed-Size: 2801
 Filename: iptables-mod-ipp2p_1.42-3.1_ar71xx.ipk
-Size: 3447
-MD5Sum: 4aca16314a10a42942cd1f32551bea34
+Size: 3452
+MD5Sum: 0ea6c8e8312e52ebd5200e1e7fbb4e01
 Description:  IPP2P iptables extension
 
 Package: iptables-mod-ipset
@@ -542,10 +542,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5496
+Installed-Size: 5495
 Filename: iptables-mod-ipset_1.4.10-5_ar71xx.ipk
 Size: 6139
-MD5Sum: 3b2fa223cd8fb377fe2223c78be120a8
+MD5Sum: d7e6b1973a156d033a9b7d40b88e58a2
 Description:  IPset iptables extensions.
  
  Matches:
@@ -568,8 +568,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 40242
 Filename: iptables_1.4.10-5_ar71xx.ipk
-Size: 40831
-MD5Sum: 57679629d6cc6ea6a0a54d4879ab8077
+Size: 40838
+MD5Sum: c7ab3429a530805b6e106ef409baf54b
 Description:  IPv4 firewall administration tool.
  
  Matches:
@@ -604,10 +604,10 @@ Essential: no
 Priority: optional
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: all
-Installed-Size: 483
+Installed-Size: 482
 Filename: ipv6-support_2013-05-27.1-1_all.ipk
-Size: 1306
-MD5Sum: e877c1b439d9e883d1dad70c2e9fe6f4
+Size: 1303
+MD5Sum: cf9c1b1ed5607ea55615231c229dfa32
 Description:  This package provides basic IPv6 support including Router Discovery,
  DHCPv6 (client & server), prefix delegation and distribution.
 
@@ -622,10 +622,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 42351
+Installed-Size: 42352
 Filename: iw_3.6-1_ar71xx.ipk
 Size: 43055
-MD5Sum: b63c0cc294cd6f920f295e99b3ed578e
+MD5Sum: badc6b8cdb3427e1c6590f4dd13ae73b
 Description:  cfg80211 interface configuration utility
 
 Package: jshn
@@ -639,10 +639,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5339
+Installed-Size: 5343
 Filename: jshn_2013-08-01-04f194aa8a04926fe7f2e42bbf9ba6c62d49339e_ar71xx.ipk
-Size: 6015
-MD5Sum: 9eded3cb1513065b9e8bf5fa200a2906
+Size: 6021
+MD5Sum: ac22058352e898e699fe309e15fbdcc6
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: kmod-ath9k-common
@@ -656,10 +656,10 @@ Essential: no
 Priority: optional
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 109572
+Installed-Size: 109569
 Filename: kmod-ath9k-common_3.3.8+2013-06-27-1_ar71xx.ipk
-Size: 107405
-MD5Sum: 953a0e03c7e240b993841ec3eaeae343
+Size: 107371
+MD5Sum: c70e80b550efc9d16da1ebbd371d4312
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k
@@ -673,10 +673,10 @@ Essential: no
 Priority: optional
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 41275
+Installed-Size: 41271
 Filename: kmod-ath9k_3.3.8+2013-06-27-1_ar71xx.ipk
-Size: 42070
-MD5Sum: 5524543e5f2eb5f5fef836487009eea8
+Size: 42066
+MD5Sum: d7a1925b74f5d657d786f63f59044771
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -691,10 +691,10 @@ Essential: no
 Priority: optional
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8579
+Installed-Size: 8578
 Filename: kmod-ath_3.3.8+2013-06-27-1_ar71xx.ipk
-Size: 9127
-MD5Sum: db4a242738459a5e09e15f4dec05f1c4
+Size: 9128
+MD5Sum: 6950b9a3e708e2942be1eb54d06302b8
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-cfg80211
@@ -708,10 +708,10 @@ Essential: no
 Priority: optional
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 108787
+Installed-Size: 108789
 Filename: kmod-cfg80211_3.3.8+2013-06-27-1_ar71xx.ipk
-Size: 109136
-MD5Sum: c9bd0c61fe9c82c9c709936796c95630
+Size: 109115
+MD5Sum: b47016c1f9c4aa7df07086fcbff118d1
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aes
@@ -725,10 +725,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 12630
+Installed-Size: 12629
 Filename: kmod-crypto-aes_3.3.8-1_ar71xx.ipk
-Size: 12911
-MD5Sum: aae2dae7540848e9a7315f1b5a9d07cb
+Size: 12906
+MD5Sum: 0cf77190e855a2d43eaa01cdfa97e521
 Description:  AES cipher CryptoAPI module
 
 Package: kmod-crypto-arc4
@@ -742,10 +742,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1022
+Installed-Size: 1021
 Filename: kmod-crypto-arc4_3.3.8-1_ar71xx.ipk
-Size: 1799
-MD5Sum: 3efa753e5458d5a530377e3dbd37ac31
+Size: 1796
+MD5Sum: 41424eee32c7c01fd95d99233afcad84
 Description:  ARC4 (RC4) cipher CryptoAPI module
 
 Package: kmod-crypto-core
@@ -759,10 +759,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 7701
+Installed-Size: 7704
 Filename: kmod-crypto-core_3.3.8-1_ar71xx.ipk
-Size: 8460
-MD5Sum: db83ed4564c6df1435711a247a5ba1a5
+Size: 8459
+MD5Sum: 50d71799c1d87a27815992bce0e56474
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-ecb
@@ -776,10 +776,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1619
+Installed-Size: 1622
 Filename: kmod-crypto-ecb_3.3.8-1_ar71xx.ipk
-Size: 2415
-MD5Sum: 1bd276f9c07b995232fbecb782a1974e
+Size: 2417
+MD5Sum: a359d9d3afde376bbebce635e7eaef20
 Description:  Electronic CodeBook CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -795,8 +795,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 5829
 Filename: kmod-crypto-hash_3.3.8-1_ar71xx.ipk
-Size: 6590
-MD5Sum: 3fc82848353ce71f6561175f69ecaadd
+Size: 6586
+MD5Sum: 085906e0fd7575b4990295f2f7ba236d
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-manager
@@ -810,10 +810,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 11112
+Installed-Size: 11113
 Filename: kmod-crypto-manager_3.3.8-1_ar71xx.ipk
-Size: 11870
-MD5Sum: 6f6acec2c524586784ee28804f99af11
+Size: 11877
+MD5Sum: 22f98fec3c5f538c156507ee9f3efa94
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-sha1
@@ -827,10 +827,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1519
+Installed-Size: 1521
 Filename: kmod-crypto-sha1_3.3.8-1_ar71xx.ipk
-Size: 2302
-MD5Sum: e16b028fc412c346e8c7b767acd940e6
+Size: 2306
+MD5Sum: 12add22ed1688d2afac3dba024b7a154
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-fs-ext4
@@ -844,10 +844,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 186755
+Installed-Size: 186754
 Filename: kmod-fs-ext4_3.3.8-1_ar71xx.ipk
-Size: 186836
-MD5Sum: 439277cd5e9e049a796292fd35109ab7
+Size: 186858
+MD5Sum: 178bf45b75b61e085f6ee447bb5ae035
 Description:  Kernel module for EXT4 filesystem support
 
 Package: kmod-gpio-button-hotplug
@@ -863,8 +863,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 3635
 Filename: kmod-gpio-button-hotplug_3.3.8-1_ar71xx.ipk
-Size: 4380
-MD5Sum: 1b1ebb27b5d85f11ab2eef02c091a487
+Size: 4379
+MD5Sum: 94d4a5f910dee12b57c17e3f2928da5a
 Description:  Simple GPIO Button Hotplug driver
 
 Package: kmod-gre
@@ -880,8 +880,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 10012
 Filename: kmod-gre_3.3.8-1_ar71xx.ipk
-Size: 10797
-MD5Sum: 8775e74fa7a559ffe13c509d886baa26
+Size: 10809
+MD5Sum: 527d9260d40a788dc878ceedd66f20ab
 Description:  Generic Routing Encapsulation support
 
 Package: kmod-ifb
@@ -897,8 +897,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 2935
 Filename: kmod-ifb_3.3.8-1_ar71xx.ipk
-Size: 3659
-MD5Sum: 83cf7d2b1fefb7f92e0d6d4d2e72cb0e
+Size: 3660
+MD5Sum: 49e5418129ec8fa0e03991d1d272ff8e
 Description:  The Intermediate Functional Block
 
 Package: kmod-ip6-tunnel
@@ -914,8 +914,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 8420
 Filename: kmod-ip6-tunnel_3.3.8-1_ar71xx.ipk
-Size: 9202
-MD5Sum: c75c7c182bd6cb8c4e2f0b7aabf1d14e
+Size: 9208
+MD5Sum: 7a6f3154b44ee4487cce76b29118e1c4
 Description:  Kernel modules for IPv6-in-IPv6 and IPv4-in-IPv6 tunnelling
 
 Package: kmod-ip6tables
@@ -929,10 +929,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 30614
+Installed-Size: 30617
 Filename: kmod-ip6tables_3.3.8-1_ar71xx.ipk
-Size: 31351
-MD5Sum: ddcfc3cfa3088a512b2f0a5ac6eb1122
+Size: 31345
+MD5Sum: 03ec3e6ae20efcfb088e15b339013772
 Description:  Netfilter IPv6 firewalling support
 
 Package: kmod-ipt-compat-xtables
@@ -946,10 +946,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1756
+Installed-Size: 1757
 Filename: kmod-ipt-compat-xtables_3.3.8+1.42-3.1_ar71xx.ipk
-Size: 2557
-MD5Sum: 0f1434cecc60323a25246adbc54d9102
+Size: 2566
+MD5Sum: ad41af485de6dfe82b5b70b7b5238749
 Description:  API compatibilty layer netfilter module
 
 Package: kmod-ipt-conntrack-extra
@@ -963,10 +963,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8037
+Installed-Size: 8035
 Filename: kmod-ipt-conntrack-extra_3.3.8-1_ar71xx.ipk
-Size: 8901
-MD5Sum: 1f58ad5db08ca035dfce6ddc25a96e11
+Size: 8898
+MD5Sum: 8d7b117e7917d81cdbb8c9ae68b131e9
 Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  Includes:
  - connbytes
@@ -986,10 +986,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 34211
+Installed-Size: 34215
 Filename: kmod-ipt-conntrack_3.3.8-1_ar71xx.ipk
 Size: 35036
-MD5Sum: 0bcf5a43b26d57495c772c06d29123ac
+MD5Sum: 2166a7d464690e825c20b2a3387d272a
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack
@@ -1011,8 +1011,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 26863
 Filename: kmod-ipt-core_3.3.8-1_ar71xx.ipk
-Size: 27668
-MD5Sum: 7f2392b1bddcdd693910b1f225fc7132
+Size: 27666
+MD5Sum: 8529f8acaabd07cd67488f8dca138b77
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -1034,10 +1034,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1928
+Installed-Size: 1930
 Filename: kmod-ipt-extra_3.3.8-1_ar71xx.ipk
-Size: 2741
-MD5Sum: d01029dc6b33a3cc9795c0e733dff185
+Size: 2739
+MD5Sum: f3fd0ec9d73ab2b4b7f219b19f97923f
 Description:  Other Netfilter (IPv4) kernel modules
  Includes:
  - owner
@@ -1056,10 +1056,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8341
+Installed-Size: 8333
 Filename: kmod-ipt-filter_3.3.8-1_ar71xx.ipk
-Size: 9158
-MD5Sum: ec169ced812b5a9001d474b60f6db3ce
+Size: 9151
+MD5Sum: 44a8201a152357bda528543b216f1fe8
 Description:  Netfilter (IPv4) kernel modules for packet content inspection
  Includes:
  - layer7
@@ -1076,10 +1076,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8369
+Installed-Size: 8374
 Filename: kmod-ipt-ipopt_3.3.8-1_ar71xx.ipk
 Size: 9254
-MD5Sum: 131a763a354738db3fecd737e2a1d55b
+MD5Sum: f5f412c980e356756d3995f92eabaf0d
 Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  Includes:
  - CLASSIFY
@@ -1105,10 +1105,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5300
+Installed-Size: 5302
 Filename: kmod-ipt-ipp2p_3.3.8+1.42-3.1_ar71xx.ipk
 Size: 6050
-MD5Sum: 7a5b31e5606415a1e8a138b8f97b3f41
+MD5Sum: a33278ec5205beb19877131294d9f158
 Description:  IPP2P netfilter module
 
 Package: kmod-ipt-ipset
@@ -1122,10 +1122,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 84580
+Installed-Size: 84578
 Filename: kmod-ipt-ipset_3.3.8+6.11-2_ar71xx.ipk
-Size: 85166
-MD5Sum: 83dd87402154034bf6b03b579967ffb8
+Size: 85153
+MD5Sum: 785c97ef4a648427a9b4fcf871487f71
 Description:  IPset netfilter modules
 
 Package: kmod-ipt-nat
@@ -1139,10 +1139,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 10461
+Installed-Size: 10459
 Filename: kmod-ipt-nat_3.3.8-1_ar71xx.ipk
-Size: 11257
-MD5Sum: 9fb5ce8b41d03bedbf3291bd53ca4d5b
+Size: 11253
+MD5Sum: 9d6c89da833ec5f2f794d8f5fcacb285
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
@@ -1158,10 +1158,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 48261
+Installed-Size: 48259
 Filename: kmod-ipt-nathelper-extra_3.3.8-1_ar71xx.ipk
-Size: 49156
-MD5Sum: 63ba82ed1715ba103469482285f2e7ef
+Size: 49142
+MD5Sum: e3482ad0aafbc7e8dfc46439f374002e
 Description:  Extra Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - amanda
@@ -1187,7 +1187,7 @@ Architecture: ar71xx
 Installed-Size: 7561
 Filename: kmod-ipt-nathelper_3.3.8-1_ar71xx.ipk
 Size: 8386
-MD5Sum: 6ab680e9a742bfeee2b5a6bf505daca0
+MD5Sum: 8bb27043f34e2e6530650204360b27fb
 Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - ftp
@@ -1205,10 +1205,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1865
+Installed-Size: 1868
 Filename: kmod-iptunnel4_3.3.8-1_ar71xx.ipk
-Size: 2629
-MD5Sum: ac9ffd62748f209f84a83563fd4a75cf
+Size: 2640
+MD5Sum: 78140494beba102b26135591b337fff8
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
@@ -1222,10 +1222,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1887
+Installed-Size: 1890
 Filename: kmod-iptunnel6_3.3.8-1_ar71xx.ipk
 Size: 2668
-MD5Sum: 523c155fdaafe0b29f53caf6253d022a
+MD5Sum: 0040a90dcc3dd29fd471a040329b31f5
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-ipv6
@@ -1241,8 +1241,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 146985
 Filename: kmod-ipv6_3.3.8-1_ar71xx.ipk
-Size: 147109
-MD5Sum: 00f794d3fcb4b1c73872a4ce5bd0d4d8
+Size: 147108
+MD5Sum: bb28301d84cdd87504a3170b9918374b
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-l2tp
@@ -1256,10 +1256,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 13078
+Installed-Size: 13077
 Filename: kmod-l2tp_3.3.8-1_ar71xx.ipk
-Size: 13825
-MD5Sum: cbb283e82b0db0541c86e9e32d289643
+Size: 13821
+MD5Sum: 7b0c09a91b1da253699769515493afed
 Description:  Kernel modules for L2TP V3 Support
 
 Package: kmod-leds-gpio
@@ -1273,10 +1273,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 2086
+Installed-Size: 2085
 Filename: kmod-leds-gpio_3.3.8-1_ar71xx.ipk
-Size: 2852
-MD5Sum: 88c29ae0b9f394bea5b3237fff47dc0b
+Size: 2854
+MD5Sum: 45c6f928b88a1de0e219d207e988e65d
 Description:  Kernel module for LEDs on GPIO lines
 
 Package: kmod-ledtrig-default-on
@@ -1290,10 +1290,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 867
+Installed-Size: 866
 Filename: kmod-ledtrig-default-on_3.3.8-1_ar71xx.ipk
-Size: 1661
-MD5Sum: 8ecd99ec9d20f76e9c80bdad1279fb4a
+Size: 1652
+MD5Sum: 35ec2f2e3dcfd946d0cbc5f1fda796b5
 Description:  Kernel module that allows LEDs to be initialised in the ON state.
 
 Package: kmod-ledtrig-netdev
@@ -1310,7 +1310,7 @@ Architecture: ar71xx
 Installed-Size: 3210
 Filename: kmod-ledtrig-netdev_3.3.8-1_ar71xx.ipk
 Size: 3962
-MD5Sum: 25464c412af74faf717df5919efffe38
+MD5Sum: 8a38815a701971ed7294b62490f2c89c
 Description:  Kernel module to drive LEDs based on network activity.
 
 Package: kmod-ledtrig-usbdev
@@ -1324,10 +1324,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 2372
+Installed-Size: 2369
 Filename: kmod-ledtrig-usbdev_3.3.8-1_ar71xx.ipk
-Size: 3151
-MD5Sum: 272c6019ebd042eb6feb32af51235432
+Size: 3142
+MD5Sum: 9337552b71b6d047d648e12390d96278
 Description:  Kernel module to drive LEDs based on USB device presence/activity.
 
 Package: kmod-lib-crc-ccitt
@@ -1341,10 +1341,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1379
+Installed-Size: 1380
 Filename: kmod-lib-crc-ccitt_3.3.8-1_ar71xx.ipk
-Size: 2150
-MD5Sum: 43f827e4ecccf4a449bcc32ffce03d48
+Size: 2155
+MD5Sum: 96bf4c95810399b82abade39fc454aaf
 Description:  Kernel module for CRC-CCITT support
 
 Package: kmod-lib-crc16
@@ -1358,10 +1358,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1339
+Installed-Size: 1336
 Filename: kmod-lib-crc16_3.3.8-1_ar71xx.ipk
-Size: 2112
-MD5Sum: eb398af651c21649994c5b4f1cedd48e
+Size: 2110
+MD5Sum: 75d012fafdf83bf68f9276870d339773
 Description:  Kernel module for CRC16 support
 
 Package: kmod-lib-textsearch
@@ -1375,10 +1375,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 3574
+Installed-Size: 3577
 Filename: kmod-lib-textsearch_3.3.8-1_ar71xx.ipk
-Size: 4330
-MD5Sum: a4e2acdf16657547fb02fe4559fb1899
+Size: 4334
+MD5Sum: 30bea2edec861cb027a091fa34494130
 Description:  Textsearch support
 
 Package: kmod-mac80211
@@ -1392,10 +1392,10 @@ Essential: no
 Priority: optional
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 161244
+Installed-Size: 161250
 Filename: kmod-mac80211_3.3.8+2013-06-27-1_ar71xx.ipk
-Size: 161566
-MD5Sum: 8906fc82121fdb1df1a63a89da99c5e9
+Size: 161556
+MD5Sum: 2a201e1248e030872b62ef4e206bbdc1
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mppe
@@ -1409,10 +1409,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 4349
+Installed-Size: 4351
 Filename: kmod-mppe_3.3.8-1_ar71xx.ipk
 Size: 5121
-MD5Sum: d5f6d6ac953c43b75aebfa794ec1ab7e
+MD5Sum: 376edc9b8f70bddfe04d9e2ebff26d8a
 Description:  Kernel modules for Microsoft PPP compression/encryption
 
 Package: kmod-nfnetlink
@@ -1426,10 +1426,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 2350
+Installed-Size: 2351
 Filename: kmod-nfnetlink_3.3.8-1_ar71xx.ipk
-Size: 3105
-MD5Sum: 71e7afc521da3e3f2ab8357e0d3db797
+Size: 3114
+MD5Sum: 88436c61f14af698b000fda68725734b
 Description:  Kernel modules support for a netlink-based userspace interface
 
 Package: kmod-nls-base
@@ -1443,10 +1443,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 3175
+Installed-Size: 3171
 Filename: kmod-nls-base_3.3.8-1_ar71xx.ipk
-Size: 3935
-MD5Sum: 60fb20be813e53b8eedabd07231240f0
+Size: 3926
+MD5Sum: 2b30577ac5743fbb1090a326b0870ff7
 Description:  Kernel module for NLS (Native Language Support)
 
 Package: kmod-ppp
@@ -1460,10 +1460,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 22894
+Installed-Size: 22892
 Filename: kmod-ppp_3.3.8-1_ar71xx.ipk
-Size: 23596
-MD5Sum: e00bf65b2ec3b63652c6ed50fd2b0856
+Size: 23592
+MD5Sum: 8574e548aca8d88b623b9b025ce584ba
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoe
@@ -1477,10 +1477,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 6394
+Installed-Size: 6395
 Filename: kmod-pppoe_3.3.8-1_ar71xx.ipk
-Size: 7205
-MD5Sum: d0b4b42f14f9146d8af4a0b7785171a3
+Size: 7211
+MD5Sum: adc048b84c569ca6cad9cb32517abb91
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppol2tp
@@ -1494,10 +1494,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 9499
+Installed-Size: 9496
 Filename: kmod-pppol2tp_3.3.8-1_ar71xx.ipk
-Size: 10290
-MD5Sum: 553cdb4b5eed41c84c57dbf78d7a47e3
+Size: 10288
+MD5Sum: bd97e3f767308bce82b90643384afd1b
 Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
 
 Package: kmod-pppox
@@ -1511,10 +1511,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1707
+Installed-Size: 1705
 Filename: kmod-pppox_3.3.8-1_ar71xx.ipk
-Size: 2499
-MD5Sum: 1274c9de748f9cc4d6c6878d7fa9b67b
+Size: 2493
+MD5Sum: 7a7507a5431148f6d1060a20856eab0b
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-pptp
@@ -1528,10 +1528,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5151
+Installed-Size: 5153
 Filename: kmod-pptp_3.3.8-1_ar71xx.ipk
-Size: 5883
-MD5Sum: fd63ddee6850f45a393a7a82456bcb08
+Size: 5889
+MD5Sum: 82d4b67ba42f8656308ba2e438d45581
 Description:  PPtP support
 
 Package: kmod-sched-connmark
@@ -1545,10 +1545,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1205
+Installed-Size: 1206
 Filename: kmod-sched-connmark_3.3.8-1_ar71xx.ipk
-Size: 1879
-MD5Sum: a50394d6484163765ceb25dfad39d570
+Size: 1881
+MD5Sum: cf73bbc3a636373b2d951607f519da58
 Description:  Traffic shaper conntrack mark support
 
 Package: kmod-sched-core
@@ -1562,10 +1562,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 34834
+Installed-Size: 34835
 Filename: kmod-sched-core_3.3.8-1_ar71xx.ipk
-Size: 35493
-MD5Sum: 2688fa3454f67b79ea6637c08ff6062f
+Size: 35498
+MD5Sum: 4096e3e13942e279f6214fd2b41fb57f
 Description:  Core kernel scheduler support for IP traffic
 
 Package: kmod-scsi-core
@@ -1581,8 +1581,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 69285
 Filename: kmod-scsi-core_3.3.8-1_ar71xx.ipk
-Size: 69631
-MD5Sum: cd8b173d16682cd1c0202d8885f018cc
+Size: 69638
+MD5Sum: 856fc7bbe5adfe3e4e4e5635b8d40031
 Description:  SCSI device support
 
 Package: kmod-sit
@@ -1596,10 +1596,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 7611
+Installed-Size: 7610
 Filename: kmod-sit_3.3.8-1_ar71xx.ipk
-Size: 8381
-MD5Sum: 6e9bacab6d6aa1a20ef91e86130593b2
+Size: 8371
+MD5Sum: 7d45ad4504b0d08c5bc8f19ffb7600db
 Description:  Kernel modules for IPv6-in-IPv4 tunnelling
 
 Package: kmod-tun
@@ -1613,10 +1613,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8835
+Installed-Size: 8837
 Filename: kmod-tun_3.3.8-1_ar71xx.ipk
-Size: 9600
-MD5Sum: 07190c08ef2c47d023f01b3b79f7ea20
+Size: 9606
+MD5Sum: 8d63b630d5192a1b1b8356aa2c3d9b25
 Description:  Kernel support for the TUN/TAP tunneling device
 
 Package: kmod-usb-core
@@ -1630,10 +1630,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 69507
+Installed-Size: 69506
 Filename: kmod-usb-core_3.3.8-1_ar71xx.ipk
-Size: 70108
-MD5Sum: 0f84be416aefcf1d82f1a3cfcf891333
+Size: 70115
+MD5Sum: 10c794c8a37e6b54e96c63b6a3badd6c
 Description:  Kernel support for USB
 
 Package: kmod-usb-ohci
@@ -1647,10 +1647,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 12722
+Installed-Size: 12725
 Filename: kmod-usb-ohci_3.3.8-1_ar71xx.ipk
-Size: 13463
-MD5Sum: 3a0947a7c27d450cb8b37285ec9bb1c7
+Size: 13478
+MD5Sum: 33754c750a8fd241d4ab13e58881f76e
 Description:  Kernel support for USB OHCI controllers
 
 Package: kmod-usb-printer
@@ -1664,10 +1664,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 7201
+Installed-Size: 7203
 Filename: kmod-usb-printer_3.3.8-1_ar71xx.ipk
-Size: 7971
-MD5Sum: bc7ee78e51416abe55ae09a650ebc141
+Size: 7968
+MD5Sum: 437d1cbd44a4f1fed800c66276c6f721
 Description:  Kernel support for USB printers
 
 Package: kmod-usb-serial-option
@@ -1681,10 +1681,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 7829
+Installed-Size: 7831
 Filename: kmod-usb-serial-option_3.3.8-1_ar71xx.ipk
-Size: 8162
-MD5Sum: 75b6894a385a77b8d40093c178189209
+Size: 8139
+MD5Sum: 68437db82c378b54e6fa43072b68e955
 Description:  Kernel support for Option HSDPA modems
 
 Package: kmod-usb-serial-wwan
@@ -1698,10 +1698,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5756
+Installed-Size: 5754
 Filename: kmod-usb-serial-wwan_3.3.8-1_ar71xx.ipk
-Size: 6521
-MD5Sum: ea47dbb647e4304e13301c3e2a751c9b
+Size: 6511
+MD5Sum: c15ca382e00aa143eabfac21b254dde5
 Description:  Kernel support for USB GSM and CDMA modems
 
 Package: kmod-usb-serial
@@ -1715,10 +1715,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 16147
+Installed-Size: 16149
 Filename: kmod-usb-serial_3.3.8-1_ar71xx.ipk
-Size: 16816
-MD5Sum: ddf61f2aea5ca24e82bdfed7243e1e22
+Size: 16829
+MD5Sum: 0961c1c740a4eeab74faa41a5a3774b7
 Description:  Kernel support for USB-to-Serial converters
 
 Package: kmod-usb-storage
@@ -1732,10 +1732,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 23008
+Installed-Size: 23013
 Filename: kmod-usb-storage_3.3.8-1_ar71xx.ipk
-Size: 23014
-MD5Sum: 35211d874648f6daf64623c802650354
+Size: 23029
+MD5Sum: cf021d0f9464c98a957b6064681c14fd
 Description:  Kernel support for USB Mass Storage devices
 
 Package: kmod-usb2
@@ -1749,10 +1749,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 24686
+Installed-Size: 24689
 Filename: kmod-usb2_3.3.8-1_ar71xx.ipk
-Size: 25371
-MD5Sum: e8ef605909d0c30c44e7b5459c190b4c
+Size: 25372
+MD5Sum: 6b3695a0d6c3fc681dafa19e43b10c45
 Description:  Kernel support for USB2 (EHCI) controllers
 
 Package: kmod-wdt-ath79
@@ -1768,8 +1768,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 2848
 Filename: kmod-wdt-ath79_3.3.8-1_ar71xx.ipk
-Size: 3603
-MD5Sum: 96ab74640e70defdf59f738f33227905
+Size: 3607
+MD5Sum: 146331e9b6ca635db8bb268fc5b4b308
 Description:  Kernel module for AR7XXX/AR9XXX watchdog timer.
 
 Package: l7-protocols
@@ -1783,10 +1783,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 49785
+Installed-Size: 49784
 Filename: l7-protocols_2009-05-28-1_ar71xx.ipk
-Size: 50264
-MD5Sum: 3bbfc9a8987176e21069c5b27c51ff90
+Size: 50256
+MD5Sum: 415cfa7b54fb755315a023ac5c028484
 Description:  l7-filter classifies packets based on patterns in application
  layer data. This allows correct classification of P2P traffic that
  uses unpredictable ports as well as standard protocols running on
@@ -1803,10 +1803,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 71758
+Installed-Size: 71757
 Filename: libblkid_2.21.2-1_ar71xx.ipk
-Size: 72397
-MD5Sum: b4c89b3e1ca893ba5ca84043e9dc797b
+Size: 72395
+MD5Sum: eca586e19a42ddb358883d989cb51d8a
 Description:  The libblkid library is used to identify block devices (disks) as to their
  content (e.g. filesystem type, partitions) as well as extracting additional
  information such as filesystem labels/volume names, partitions, unique
@@ -1825,8 +1825,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 3694
 Filename: libblobmsg-json_2013-08-01-04f194aa8a04926fe7f2e42bbf9ba6c62d49339e_ar71xx.ipk
-Size: 4370
-MD5Sum: eeaa606c83ffef6568f9978cdcc2eb45
+Size: 4376
+MD5Sum: 3949aec22d015bcc0de8abb4e4454766
 Description:  blobmsg <-> json conversion library
 
 Package: libbz2
@@ -1840,10 +1840,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 27956
+Installed-Size: 27953
 Filename: libbz2_1.0.6-1_ar71xx.ipk
-Size: 28619
-MD5Sum: 0661b2d0147b55851c138dbe202509e6
+Size: 28621
+MD5Sum: 93775c2327e1644663e245c2de2dc2f8
 Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This packages provides libbz2 library.
 
@@ -1858,10 +1858,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 140161
+Installed-Size: 140163
 Filename: libcurl_7.29.0-1_ar71xx.ipk
-Size: 140620
-MD5Sum: 8d0cd328425a5f49f2c35d84b717f411
+Size: 140638
+MD5Sum: 238699e396c949700179faf48ea62383
 Description:  A client-side URL transfer library
 
 Package: libevent2
@@ -1875,10 +1875,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 100760
+Installed-Size: 100756
 Filename: libevent2_2.0.19-1_ar71xx.ipk
-Size: 101768
-MD5Sum: f5686ae22a6ca32b3dba1ffb615a6227
+Size: 101760
+MD5Sum: 40f25ee422f1db61d1d63ad79eb02171
 Description:  The libevent API provides a mechanism to execute a callback function
  when a specific event occurs on a file descriptor or after a timeout
  has been reached. Furthermore, libevent also support callbacks due
@@ -1903,10 +1903,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 68128
+Installed-Size: 68125
 Filename: libexif_0.6.19-1_ar71xx.ipk
-Size: 67297
-MD5Sum: cf67f767f41410dedb6e4170f9fcd9f5
+Size: 67358
+MD5Sum: 5ff82447542ead9576384b04cc7d9583
 Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
  intended to replace lots of redundant implementations in command-line
  utilities and programs with GUIs.
@@ -1922,10 +1922,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 738296
+Installed-Size: 738287
 Filename: libffmpeg-mini_0.8.7-2_ar71xx.ipk
-Size: 736166
-MD5Sum: 33ffa9916f8932d0aac9a01c98e6e68e
+Size: 736144
+MD5Sum: a7848615ffef9c5fa17d11e9dfd4999d
 Description:  FFmpeg is a a software package that can record, convert and stream digital 
  audio and video in numerous formats.
  .
@@ -1942,10 +1942,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 92199
+Installed-Size: 92198
 Filename: libflac_1.2.1-1_ar71xx.ipk
-Size: 92641
-MD5Sum: 0396ff4ff44b83b61a0e076469dd41be
+Size: 92637
+MD5Sum: a3cc9f7c75194fa55ce57b2e6840563c
 Description:  Free Lossless Audio Codec library
 
 Package: libgcc
@@ -1959,10 +1959,10 @@ Essential: yes
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 31845
+Installed-Size: 31848
 Filename: libgcc_4.7-linaro-1_ar71xx.ipk
-Size: 32504
-MD5Sum: 0bf16cff55b1265d8b3cf07a6570c675
+Size: 32494
+MD5Sum: d2cbdab6530bb6b3892cc5c3d40dd4ee
 Description:  GCC support library
 
 Package: libid3tag
@@ -1976,10 +1976,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 25992
+Installed-Size: 25991
 Filename: libid3tag_0.15.1b-3_ar71xx.ipk
-Size: 26273
-MD5Sum: 4d9d40ee308d53cc96d9d4663027f6d4
+Size: 26276
+MD5Sum: a4646109e0abcb8102f9fc7c23eb6742
 Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both 
  ID3v1 and the various versions of ID3v2.
 
@@ -1994,10 +1994,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 10088
+Installed-Size: 10091
 Filename: libip4tc_1.4.10-5_ar71xx.ipk
-Size: 10724
-MD5Sum: d884e6911fc2fa34915e687ae809f6f9
+Size: 10717
+MD5Sum: 57e0f18b5588d2e428ed151966d2dd8b
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc
@@ -2011,10 +2011,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 10488
+Installed-Size: 10491
 Filename: libip6tc_1.4.10-5_ar71xx.ipk
-Size: 11120
-MD5Sum: 0f63a204a69bf617b924eff7c02e843b
+Size: 11116
+MD5Sum: 21facd1d429ee8a1715b410ab8b1e9d0
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiwinfo-lua
@@ -2028,10 +2028,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 7154
+Installed-Size: 7155
 Filename: libiwinfo-lua_44_ar71xx.ipk
-Size: 7751
-MD5Sum: 87633eb6938fc82383624bbc507a953c
+Size: 7757
+MD5Sum: 22e622fedfcfea0fea03030f5cf6a186
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -2046,10 +2046,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 24520
+Installed-Size: 24519
 Filename: libiwinfo_44_ar71xx.ipk
-Size: 25141
-MD5Sum: 209275e440059d887ce2080dbba1b181
+Size: 25135
+MD5Sum: da901f01ba9cbe5c4a5db1c93cfa7366
 Description:  Wireless information library with consistent interface for proprietary Broadcom,
  madwifi, nl80211 and wext driver interfaces.
 
@@ -2064,10 +2064,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 62541
+Installed-Size: 62540
 Filename: libjpeg_6b-1_ar71xx.ipk
-Size: 63016
-MD5Sum: 8ed44dcea2b535f905405e334cc9d0a7
+Size: 63024
+MD5Sum: 46bba880cd792fadd2f93d58afc93153
 Description:  The Independent JPEG Group's JPEG runtime library
 
 Package: libjson-c
@@ -2081,10 +2081,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 15596
+Installed-Size: 15594
 Filename: libjson-c_0.11-2_ar71xx.ipk
-Size: 16231
-MD5Sum: d984e6fbce55a9bf384117527282b3da
+Size: 16230
+MD5Sum: b580b6d4f57420611e7b7e0ad1482916
 Description:  This package contains a library for javascript object notation backends.
 
 Package: liblua
@@ -2100,8 +2100,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 76011
 Filename: liblua_5.1.4-8_ar71xx.ipk
-Size: 76288
-MD5Sum: 770864ab6480a5bfb572e48fdde2c59f
+Size: 76271
+MD5Sum: d720a5a680cdffd16a7bf37d46f82e30
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -2120,8 +2120,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 33400
 Filename: liblzo_2.06-1_ar71xx.ipk
-Size: 34093
-MD5Sum: aa4cdac6fd8b47e266e37fef3d804ca4
+Size: 34099
+MD5Sum: f1a54ceaf1f6e937d849ade3160967a2
 Description:  LZO is a data compression library which is suitable for data de-/compression
  in real-time. This means it favours speed over compression ratio.
 
@@ -2136,10 +2136,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 16147
+Installed-Size: 16146
 Filename: libminiupnpc_1.8-1_ar71xx.ipk
-Size: 16760
-MD5Sum: 8fe93f8651bc93ceefc61f6e0ebe45c9
+Size: 16757
+MD5Sum: 8cf90ee1b1798077a7e59198f6e373a6
 Description:  Lightweight UPnP library
 
 Package: libmnl
@@ -2155,8 +2155,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 5576
 Filename: libmnl_1.0.1-1_ar71xx.ipk
-Size: 6655
-MD5Sum: 6dfac9a57792609a5a82f37d35f4a46b
+Size: 6662
+MD5Sum: b0047f8c7edbdc32012827309f093ff3
 Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
  There are a lot of common tasks in parsing, validating, constructing of
  both the Netlink header and TLVs that are repetitive and easy to get wrong.
@@ -2190,10 +2190,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8831
+Installed-Size: 8833
 Filename: libnfnetlink_1.0.0-2_ar71xx.ipk
-Size: 9613
-MD5Sum: 82f18faedf8f3b9568620ba41270e4b6
+Size: 9614
+MD5Sum: 67183a92a14c6134c6959c9797451836
 Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
  It provides a generic messaging infrastructure for in-kernel netfilter subsystems
  (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
@@ -2210,10 +2210,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 13043
+Installed-Size: 13044
 Filename: libnl-tiny_0.1-3_ar71xx.ipk
-Size: 13656
-MD5Sum: 4b78c81fd1386dcec0b9989e5e3dc19b
+Size: 13660
+MD5Sum: 05c8f179a478aee9528db960bd60f2ea
 Description:  This package contains a stripped down version of libnl
 
 Package: libogg
@@ -2227,10 +2227,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8728
+Installed-Size: 8726
 Filename: libogg_1.1.4-2_ar71xx.ipk
-Size: 9473
-MD5Sum: 67d3b33f3c2f8611b399c6116716f44b
+Size: 9467
+MD5Sum: 6417156ad81e92b63bf14b3402b7d8e5
 Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
  compressed bitstream into a more robust, useful form.  For example,
  the Ogg bitstream makes seeking, time stamping and error recovery
@@ -2248,10 +2248,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 694387
+Installed-Size: 694395
 Filename: libopenssl_1.0.1e-2_ar71xx.ipk
-Size: 687696
-MD5Sum: 32ee872103ec1cbc9bfe7942689a2992
+Size: 687706
+MD5Sum: 4ebb420976f70b061ae75249d60f7ef9
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -2269,10 +2269,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 75578
+Installed-Size: 75577
 Filename: libpcre_8.11-2_ar71xx.ipk
-Size: 76207
-MD5Sum: 2aca0d374828bc9f98083efac5349cbb
+Size: 76199
+MD5Sum: 36619a9b1f78d084fa7df8dd5f9a0736
 Description:  A Perl Compatible Regular Expression library
 
 Package: libpthread
@@ -2286,10 +2286,10 @@ Essential: yes
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 30693
+Installed-Size: 30697
 Filename: libpthread_0.9.33.2-1_ar71xx.ipk
-Size: 31315
-MD5Sum: d0c1135b881709783360373ccc38be32
+Size: 31317
+MD5Sum: 8053e8fd2b85a98a84a8e868823942b9
 Description:  POSIX thread library
 
 Package: librpc
@@ -2303,10 +2303,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 31944
+Installed-Size: 31945
 Filename: librpc_0.9.32-rc2-0a2179bbc0844928f2a0ec01dba93d9b5d6d41a7_ar71xx.ipk
-Size: 32559
-MD5Sum: 2b507333c5a44d9fae32ff7a189322bb
+Size: 32564
+MD5Sum: 90d2239f2be0ee336970e74ad27be49c
 Description:  uClibc RPC library
 
 Package: librt
@@ -2322,8 +2322,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 4910
 Filename: librt_0.9.33.2-1_ar71xx.ipk
-Size: 5520
-MD5Sum: 75fe266779d11b860f1c65c2b878cb7b
+Size: 5512
+MD5Sum: deaf04b32d2c5cf468f316498c439cb4
 Description:  POSIX.1b RealTime extension library
 
 Package: libsqlite3
@@ -2337,10 +2337,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 329419
+Installed-Size: 329418
 Filename: libsqlite3_3071201-1_ar71xx.ipk
-Size: 329618
-MD5Sum: e0a50c2881bd0d8415b601f168d9da59
+Size: 329607
+MD5Sum: f6bfd32440b8f548e904ea005687ac5f
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
@@ -2357,10 +2357,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 13144
+Installed-Size: 13145
 Filename: libubox_2013-08-01-04f194aa8a04926fe7f2e42bbf9ba6c62d49339e_ar71xx.ipk
-Size: 13800
-MD5Sum: 6f96c04367e05347358bd652f79d2c94
+Size: 13804
+MD5Sum: 67f31fcd13820bcd989e528d3ea88977
 Description:  Basic utility library
 
 Package: libubus-lua
@@ -2376,8 +2376,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 7071
 Filename: libubus-lua_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_ar71xx.ipk
-Size: 7762
-MD5Sum: c7e1a2edf828002f7c0c29f11d2b0255
+Size: 7768
+MD5Sum: be7d23045492b72c4b28e8d6929c5615
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus
@@ -2393,8 +2393,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 13990
 Filename: libubus_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_ar71xx.ipk
-Size: 14621
-MD5Sum: f014e12116af75ab219c7811969382eb
+Size: 14619
+MD5Sum: 60cdad1d4d9c2957bfba7489651e8e1d
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -2410,8 +2410,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 6508
 Filename: libuci-lua_2013-06-11.1-1_ar71xx.ipk
-Size: 7128
-MD5Sum: bb40095a6b5c73fd31ed54b95afa78c8
+Size: 7123
+MD5Sum: 8455fb6cb1669055eb3a4db2cf603a57
 Description:  Lua plugin for UCI
 
 Package: libuci
@@ -2427,26 +2427,27 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 16287
 Filename: libuci_2013-06-11.1-1_ar71xx.ipk
-Size: 16906
-MD5Sum: 0afbf500a810fafb44ae5a375d0f2761
+Size: 16907
+MD5Sum: 7dde1e64b8eb6d08a96c7f324bc20bf9
 Description:  C library for the Unified Configuration Interface (UCI)
 
-Package: libusb
-Version: 0.1.12-3
-Depends: libc
+Package: libusb-1.0
+Version: 1.0.9-1
+Depends: libc, libpthread, librt
 Provides: 
-Source: feeds/packages/libs/libusb
+Source: feeds/packages/libs/libusb-1.0
 Section: libs
 Status: unknown ok not-installed
 Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 10032
-Filename: libusb_0.1.12-3_ar71xx.ipk
-Size: 10668
-MD5Sum: 4a2cc4650bbdef8bb2c529081051deb2
-Description:  A library for accessing Linux USB devices
+Installed-Size: 23278
+Filename: libusb-1.0_1.0.9-1_ar71xx.ipk
+Size: 23934
+MD5Sum: 0fdf0719abb95fd8e4b0125f77934f0f
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
 
 Package: libuuid
 Version: 2.21.2-1
@@ -2462,7 +2463,7 @@ Architecture: ar71xx
 Installed-Size: 7583
 Filename: libuuid_2.21.2-1_ar71xx.ipk
 Size: 8388
-MD5Sum: df6c19e5a894af05af87ea7377883014
+MD5Sum: 7e12936c77d77f62d717bac2662a837e
 Description:  The UUID library is used to generate unique identifiers for objects
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
@@ -2479,10 +2480,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 206034
+Installed-Size: 206031
 Filename: libvorbis_1.2.3-1_ar71xx.ipk
-Size: 201860
-MD5Sum: e22b458d45cbe71f4029f90d6a4971b1
+Size: 201739
+MD5Sum: 7894b09c65bf8acce19d68c26f2dddec
 Description:  Vorbis is a general purpose audio and music encoding format
  contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
  MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
@@ -2503,10 +2504,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 10351
+Installed-Size: 10349
 Filename: libxtables_1.4.10-5_ar71xx.ipk
-Size: 10977
-MD5Sum: e1a207107b5134394b689076b940d723
+Size: 10975
+MD5Sum: 48517e8a31700509d9599e0360523fd7
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: lighttpd-mod-cgi
@@ -2520,10 +2521,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 9169
+Installed-Size: 9168
 Filename: lighttpd-mod-cgi_1.4.32-2_ar71xx.ipk
-Size: 9788
-MD5Sum: 427a30e0a405b052d8270be1da68d01e
+Size: 9779
+MD5Sum: 24f0c85bb0f4a0489903b36e7f44b8a0
 Description:  CGI module
 
 Package: lighttpd
@@ -2537,10 +2538,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 84696
+Installed-Size: 84697
 Filename: lighttpd_1.4.32-2_ar71xx.ipk
-Size: 84791
-MD5Sum: 8881e04f4d9035d6c1635695ab071cc0
+Size: 84797
+MD5Sum: 558de54b48d63d6e39b91baa1d3f01f5
 Description:  A flexible and lightweight web server
 
 Package: lua
@@ -2554,10 +2555,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8383
+Installed-Size: 8385
 Filename: lua_5.1.4-8_ar71xx.ipk
-Size: 9154
-MD5Sum: 4f5796bbcff743571bd5b4e706482e6b
+Size: 9153
+MD5Sum: 500ec5db75a554da3e7b9f64480a3f5b
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -2574,10 +2575,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 11393
+Installed-Size: 11400
 Filename: luci-app-ddns_0.11+svn9907-1_ar71xx.ipk
-Size: 12011
-MD5Sum: 137bb0ab942f7a31f52642a34e885cd3
+Size: 12013
+MD5Sum: ccedad6c28767936fe5c225a8443e9e0
 Description:  Dynamic DNS configuration module
 
 Package: luci-app-firewall
@@ -2591,10 +2592,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 57944
+Installed-Size: 57940
 Filename: luci-app-firewall_0.11+svn9907-1_ar71xx.ipk
-Size: 58691
-MD5Sum: 4b896bf97e0318100855919275c276b2
+Size: 58695
+MD5Sum: f6b3891020ac819da15390ff5a6051fc
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-hd-idle
@@ -2608,10 +2609,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 5745
+Installed-Size: 5755
 Filename: luci-app-hd-idle_0.11+svn9907-1_ar71xx.ipk
-Size: 6525
-MD5Sum: 0d2f1b87b8b0c35b03a8ccad3d8505a1
+Size: 6532
+MD5Sum: 282471aa12b796150795c878559fdd3d
 Description:  Hard Disk Idle Spin-Down module
 
 Package: luci-app-minidlna
@@ -2625,10 +2626,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 17105
+Installed-Size: 17111
 Filename: luci-app-minidlna_0.11+svn9907-1_ar71xx.ipk
-Size: 17748
-MD5Sum: eec35162cf113e0dbd21ceb7d8e1bbdb
+Size: 17741
+MD5Sum: 5770b0325e015a45fbe11a54a73871dc
 Description:  LuCI Support for miniDLNA
 
 Package: luci-app-multiwan
@@ -2642,10 +2643,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 12569
+Installed-Size: 12567
 Filename: luci-app-multiwan_0.11+svn9907-1_ar71xx.ipk
-Size: 13216
-MD5Sum: 782c682dd72debc889cbafa088de794b
+Size: 13210
+MD5Sum: a81c2d997032ce9e51b11786226862f8
 Description:  LuCI Support for the OpenWrt MultiWAN agent
 
 Package: luci-app-p2pblock
@@ -2659,10 +2660,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 5572
+Installed-Size: 5578
 Filename: luci-app-p2pblock_0.11+svn9907-1_ar71xx.ipk
-Size: 6357
-MD5Sum: 4d9465839aab1ee077a84348b7ea5a91
+Size: 6369
+MD5Sum: dc8b78bf7d5daa55dab2d6bbbd120b15
 Description:  LuCI Support for the Freifunk P2P-Block addon
 
 Package: luci-app-p910nd
@@ -2678,8 +2679,8 @@ Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
 Installed-Size: 5849
 Filename: luci-app-p910nd_0.11+svn9907-1_ar71xx.ipk
-Size: 6618
-MD5Sum: a4f1071a76b95bc3b7fd31da63d2efa8
+Size: 6615
+MD5Sum: e66de090b19ac1023d1c185368035568
 Description:  p910nd - Printer server module
 
 Package: luci-app-qos
@@ -2693,10 +2694,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 10652
+Installed-Size: 10654
 Filename: luci-app-qos_0.11+svn9907-1_ar71xx.ipk
 Size: 11318
-MD5Sum: ca779509494b01e353e568dfb6a59496
+MD5Sum: c14a82b03383b0e7e5bc569857afc248
 Description:  Quality of Service configuration module
 
 Package: luci-app-samba
@@ -2710,10 +2711,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 11539
+Installed-Size: 11540
 Filename: luci-app-samba_0.11+svn9907-1_ar71xx.ipk
-Size: 12208
-MD5Sum: cc253a53311b822706bf7d42385dd924
+Size: 12212
+MD5Sum: 78ab68dd62c8ca49f760ef27d2feed3f
 Description:  Network Shares - Samba SMB/CIFS module
 
 Package: luci-app-tinyproxy
@@ -2729,8 +2730,8 @@ Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
 Installed-Size: 23904
 Filename: luci-app-tinyproxy_0.11+svn9907-1_ar71xx.ipk
-Size: 24547
-MD5Sum: 067755970ec1a1b32bf95e443410e03b
+Size: 24545
+MD5Sum: 82847d42f73ab061d1f6c2a1d691198b
 Description:  Tinyproxy - HTTP(S)-Proxy configuration
 
 Package: luci-app-upnp
@@ -2744,10 +2745,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 18086
+Installed-Size: 18092
 Filename: luci-app-upnp_0.11+svn9907-1_ar71xx.ipk
-Size: 18768
-MD5Sum: 0e4f7c1a906c00125a7c372cd149b292
+Size: 18780
+MD5Sum: 68070f86ec97acfa5fa77d4f9628b246
 Description:  Universal Plug & Play configuration module
 
 Package: luci-app-wol
@@ -2761,10 +2762,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 8112
+Installed-Size: 8111
 Filename: luci-app-wol_0.11+svn9907-1_ar71xx.ipk
-Size: 8752
-MD5Sum: d18f7adf485f833c6f2d636b820f8468
+Size: 8747
+MD5Sum: 57451dd2f80fff4222c0503c15f005dc
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-i18n-english
@@ -2781,7 +2782,7 @@ Architecture: ar71xx
 Installed-Size: 524
 Filename: luci-i18n-english_0.11+svn9907-1_ar71xx.ipk
 Size: 1252
-MD5Sum: bb4ca2b7caaa763fcbb3b2fced1b838f
+MD5Sum: 7738b3e66e0242e7cc092dec0f614bf5
 Description:  English
 
 Package: luci-lib-core
@@ -2795,10 +2796,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 30670
+Installed-Size: 30679
 Filename: luci-lib-core_0.11+svn9907-1_ar71xx.ipk
-Size: 31291
-MD5Sum: b6f4b2804d69d2a160c582f709db0dcf
+Size: 31299
+MD5Sum: 972c362d19c161665736855deb8f04a3
 Description:  LuCI core libraries
 
 Package: luci-lib-ipkg
@@ -2812,10 +2813,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 1918
+Installed-Size: 1917
 Filename: luci-lib-ipkg_0.11+svn9907-1_ar71xx.ipk
-Size: 2569
-MD5Sum: 8bf4b35f7608e1d945e0ce77b8e76bed
+Size: 2566
+MD5Sum: 4903ebed1c43ff44807cf1e55147017c
 Description:  LuCI IPKG/OPKG call abstraction library
 
 Package: luci-lib-nixio
@@ -2829,10 +2830,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 33739
+Installed-Size: 33747
 Filename: luci-lib-nixio_0.11+svn9907-1_ar71xx.ipk
-Size: 34201
-MD5Sum: a0ed904a6d5c60a2a6e2fd28cfb0a6d5
+Size: 34197
+MD5Sum: 98633f7e8cbaf079e9051f76b5f83375
 Description:  NIXIO POSIX library
 
 Package: luci-lib-sys
@@ -2846,10 +2847,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 17545
+Installed-Size: 17540
 Filename: luci-lib-sys_0.11+svn9907-1_ar71xx.ipk
-Size: 18162
-MD5Sum: 991de71912ef81e7cfe8899556325f58
+Size: 18161
+MD5Sum: dbbf66e0948114c4d102fd8aa66c4a0d
 Description:  LuCI Linux/POSIX system library
 
 Package: luci-lib-web
@@ -2863,10 +2864,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 65522
+Installed-Size: 65523
 Filename: luci-lib-web_0.11+svn9907-1_ar71xx.ipk
-Size: 66297
-MD5Sum: 20584ca4f5c0bde5ddf8b0287ac364dd
+Size: 66296
+MD5Sum: a9df3c5a8faab9446b768157e71e096f
 Description:  MVC Webframework
 
 Package: luci-mod-admin-core
@@ -2880,10 +2881,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 6931
+Installed-Size: 6936
 Filename: luci-mod-admin-core_0.11+svn9907-1_ar71xx.ipk
-Size: 7746
-MD5Sum: 54e754f92ed965522321c485332ea388
+Size: 7738
+MD5Sum: ac4bb10929aa25c16c65f9f4b88584c0
 Description:  Web UI Core module
 
 Package: luci-mod-admin-full
@@ -2897,10 +2898,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 84747
+Installed-Size: 84745
 Filename: luci-mod-admin-full_0.11+svn9907-1_ar71xx.ipk
-Size: 85488
-MD5Sum: 0041966317884657fbd3b4773485d13d
+Size: 85482
+MD5Sum: f81d505253415774293a3ef0bbd6abe6
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-proto-3g
@@ -2914,10 +2915,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 2023
+Installed-Size: 2022
 Filename: luci-proto-3g_0.11+svn9907-1_ar71xx.ipk
-Size: 2662
-MD5Sum: 7e7fbc61dd92674c1f03433aa5f5083c
+Size: 2657
+MD5Sum: 489b62d2f2ea02e55564e4f8bce24189
 Description:  Support for 3G
 
 Package: luci-proto-core
@@ -2931,10 +2932,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 2420
+Installed-Size: 2422
 Filename: luci-proto-core_0.11+svn9907-1_ar71xx.ipk
-Size: 3024
-MD5Sum: 3f0c2f13c5abadd37bfaeb6f55a3f863
+Size: 3032
+MD5Sum: ccc627c29ab7bae520f6cbf00ba9af13
 Description:  Support for static/dhcp/none
 
 Package: luci-proto-ipv6
@@ -2950,8 +2951,8 @@ Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
 Installed-Size: 3985
 Filename: luci-proto-ipv6_0.11+svn9907-1_ar71xx.ipk
-Size: 4601
-MD5Sum: 0d8ddc06ee59beeb59e091dcaf528d79
+Size: 4597
+MD5Sum: a0b0f7279392a61a2963f43d044b4358
 Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
 
 Package: luci-proto-ppp
@@ -2965,10 +2966,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 3944
+Installed-Size: 3941
 Filename: luci-proto-ppp_0.11+svn9907-1_ar71xx.ipk
-Size: 4548
-MD5Sum: e874e7050d90b1b64840ae97cc10ddf5
+Size: 4532
+MD5Sum: 51190310b243e69e264fc673f12e58fd
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-relay
@@ -2984,8 +2985,8 @@ Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
 Installed-Size: 2557
 Filename: luci-proto-relay_0.11+svn9907-1_ar71xx.ipk
-Size: 3184
-MD5Sum: 4d479024d8ac06959944f97fbaad8973
+Size: 3176
+MD5Sum: 3693663d42b5854f3eb2229ec4dd224d
 Description:  Support for relayd pseudo bridges
 
 Package: luci-sgi-cgi
@@ -2999,10 +3000,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 1354
+Installed-Size: 1359
 Filename: luci-sgi-cgi_0.11+svn9907-1_ar71xx.ipk
-Size: 2007
-MD5Sum: 5a704c1ee445b4c1d7913ad6d1300b63
+Size: 2012
+MD5Sum: af9f20f557b1b86f015079b96f7f6422
 Description:  CGI Gateway behind existing Webserver
 
 Package: luci-theme-base
@@ -3016,10 +3017,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 23125
+Installed-Size: 23127
 Filename: luci-theme-base_0.11+svn9907-1_ar71xx.ipk
-Size: 23772
-MD5Sum: c6b0068e4a07b64872a080e2358895a2
+Size: 23767
+MD5Sum: 7e4bafd2dc375d3a3643af552ff61fd4
 Description:  Common base for all themes
 
 Package: luci-theme-bootstrap
@@ -3033,10 +3034,10 @@ Essential: no
 Priority: optional
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: ar71xx
-Installed-Size: 11955
+Installed-Size: 11956
 Filename: luci-theme-bootstrap_0.11+svn9907-1_ar71xx.ipk
-Size: 12682
-MD5Sum: 525dd973712eda1987e36f9550b931e1
+Size: 12681
+MD5Sum: 00091b45d9a8e2d02401f8c32264c4f2
 Description:  Bootstrap Theme
 
 Package: minidlna
@@ -3050,10 +3051,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 119657
+Installed-Size: 119660
 Filename: minidlna_1.0.24-1_ar71xx.ipk
-Size: 119290
-MD5Sum: 7d920574986f1d8c31f7b63e8585d925
+Size: 119302
+MD5Sum: ba93dda16afa0204d8bdb37ef96aa433
 Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
  being fully compliant with DLNA/UPnP-AV clients.
 
@@ -3068,10 +3069,10 @@ Essential: no
 Priority: optional
 Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
 Architecture: ar71xx
-Installed-Size: 41743
+Installed-Size: 41742
 Filename: miniupnpd_1.8.20130426-2_ar71xx.ipk
-Size: 42513
-MD5Sum: fed73a126a3521a5d1e48f2155727c99
+Size: 42518
+MD5Sum: 0e71d15d7dbc3d1808ce44d635b354a1
 Description:  Lightweight UPnP daemon
 
 Package: mtd
@@ -3085,10 +3086,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 10960
+Installed-Size: 10958
 Filename: mtd_18.1_ar71xx.ipk
-Size: 11600
-MD5Sum: b0856c02c72f4f9844cedaa66430dc7b
+Size: 11604
+MD5Sum: 976c6d700f652220e8aefc87681429fc
 Description:  This package contains an utility useful to upgrade from other firmware or
  older OpenWrt releases.
 
@@ -3105,8 +3106,8 @@ Maintainer: Craig M. Coffee <craigc@netlab7.com>
 Architecture: ar71xx
 Installed-Size: 7646
 Filename: multiwan_1.0.22-2_ar71xx.ipk
-Size: 8508
-MD5Sum: 55b4dfd8ccf878701502434da37d1eff
+Size: 8509
+MD5Sum: 802e61d57932f3ad3ae636820e0672df
 Description:  An agent script that makes Multi-WAN configuration simple,
  easy and manageable. Complete with load balancing, failover and an easy
  to manage traffic ruleset.
@@ -3124,12 +3125,12 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 45430
 Filename: netifd_2013-07-16-2674941b06c1ec67f1aff1bff9212e1372106641_ar71xx.ipk
-Size: 45611
-MD5Sum: 2c37b8313ed6395dd8f4c41c11b2b318
+Size: 45625
+MD5Sum: 5744e85d4bf3e71245b9e98f5a71db33
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: odhcp6c
-Version: 2013-09-18-122c431883b221393d8876bef8a07e87e0e524d1
+Version: 2013-09-21-4323a13ae58f9be363847d58ae25733289d91205
 Depends: libc, kmod-ipv6
 Provides: 
 Source: package/odhcp6c
@@ -3139,10 +3140,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 20024
-Filename: odhcp6c_2013-09-18-122c431883b221393d8876bef8a07e87e0e524d1_ar71xx.ipk
-Size: 20651
-MD5Sum: 2b739dbf01e3d60c4ede271203776a99
+Installed-Size: 20060
+Filename: odhcp6c_2013-09-21-4323a13ae58f9be363847d58ae25733289d91205_ar71xx.ipk
+Size: 20672
+MD5Sum: a20ec694723011d4aa26a35c2e5e3618
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: openssl-util
@@ -3158,8 +3159,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 186718
 Filename: openssl-util_1.0.1e-2_ar71xx.ipk
-Size: 185572
-MD5Sum: 250e68eb03c0581d2a9c482f32bfb6be
+Size: 185559
+MD5Sum: 1761e16d1b76d906cca298be23083cca
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -3177,10 +3178,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 10024
+Installed-Size: 10027
 Filename: openvpn-easy-rsa_2.2.2-2_ar71xx.ipk
-Size: 10744
-MD5Sum: 42b63cb2e568d5698c0bde6ac9c08110
+Size: 10747
+MD5Sum: d7053b720a4944acb42a9a1252a93176
 Description:  Simple shell scripts to manage a Certificate Authority
 
 Package: openvpn
@@ -3194,10 +3195,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 138143
+Installed-Size: 138140
 Filename: openvpn_2.2.2-2_ar71xx.ipk
-Size: 137506
-MD5Sum: 78fbc999a7d95f60e994d04635b200d6
+Size: 137499
+MD5Sum: 420bfa097ec810fa2dde16434b22c978
 Description:  Open source VPN solution using SSL
 
 Package: opkg
@@ -3211,10 +3212,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 58570
+Installed-Size: 58571
 Filename: opkg_618-3_ar71xx.ipk
-Size: 59048
-MD5Sum: e8a6a2f8018230e5d66a6aea2fa45075
+Size: 59046
+MD5Sum: 76f0034e80e76d25fd791607821bc770
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -3234,10 +3235,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5474
+Installed-Size: 5476
 Filename: p910nd_0.95-2_ar71xx.ipk
-Size: 6315
-MD5Sum: 95622451ac72882ad7766a2b3de09eee
+Size: 6314
+MD5Sum: 2cfdf6f739db08f75b6f00a0217cf04d
 Description:  p910nd is a small daemon that copies any data received on
  the port it is listening on to the corresponding printer
  port. It is primarily intended for diskless Linux hosts
@@ -3257,10 +3258,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 8683
+Installed-Size: 8684
 Filename: ppp-mod-pppoe_2.4.5-10_ar71xx.ipk
-Size: 9316
-MD5Sum: 4cfc8d2f06647dc5de03c09946890dd2
+Size: 9311
+MD5Sum: 1ca145fd8978e549066de3b64d25a940
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp-mod-pppol2tp
@@ -3274,10 +3275,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 4536
+Installed-Size: 4538
 Filename: ppp-mod-pppol2tp_2.4.5-10_ar71xx.ipk
-Size: 5147
-MD5Sum: 459f39be86b713659c74277197381191
+Size: 5145
+MD5Sum: 3cbde92583cec1b547f6fc54d09b9565
 Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
 
 Package: ppp-mod-pptp
@@ -3291,10 +3292,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 15861
+Installed-Size: 15863
 Filename: ppp-mod-pptp_2.4.5-10_ar71xx.ipk
-Size: 16445
-MD5Sum: d3d344662f6b0d4e240f32b55546305a
+Size: 16449
+MD5Sum: e4761f1bf091e25a5f38a6c666b8f588
 Description:  This package contains a PPtP plugin for ppp.
 
 Package: ppp
@@ -3308,10 +3309,10 @@ Essential: no
 Priority: optional
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 108083
+Installed-Size: 108080
 Filename: ppp_2.4.5-10_ar71xx.ipk
-Size: 108351
-MD5Sum: 29853586a467e7dedc8b2d2bfb1ceb3b
+Size: 108338
+MD5Sum: 974e45b920ccf34c3b696d5f6cd3dd72
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: pptpd
@@ -3325,10 +3326,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 27253
+Installed-Size: 27258
 Filename: pptpd_1.3.4-2_ar71xx.ipk
-Size: 27521
-MD5Sum: 1c4d84667e1bfa4edc262bbcbc36fb9f
+Size: 27548
+MD5Sum: f4e63e4c284e680298cfba47f0d29d7e
 Description:  PopTop pptp server
 
 Package: qos-scripts
@@ -3345,7 +3346,7 @@ Architecture: all
 Installed-Size: 6172
 Filename: qos-scripts_1.2.1-6_all.ipk
 Size: 6943
-MD5Sum: f4351a1062e1f78934a16734008d8018
+MD5Sum: 4547f8c73a365dc429ce568ea833bf03
 Description:  A set of scripts that abstract QoS configuration into a simple 
  configuration file supporting stanzas that specify any number of QoS 
  entries.
@@ -3361,10 +3362,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 9850
+Installed-Size: 9851
 Filename: relayd_2011-10-24-4e8f1fa4ca2b176500362843a9e57ea5abd4b7a3_ar71xx.ipk
-Size: 10509
-MD5Sum: f44af0275a3f43df8a5f1784e0edd9e3
+Size: 10515
+MD5Sum: 05f9e269099cff80279ab458aa2aacd2
 Description:  Transparent routing / relay daemon
 
 Package: resolveip
@@ -3380,8 +3381,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 2021
 Filename: resolveip_2_ar71xx.ipk
-Size: 2781
-MD5Sum: 665febea1807298c8def1515757d3f84
+Size: 2778
+MD5Sum: 138105e5c509c2e2c8b3ba0e1d7c124e
 Description:  This package contains the small resolveip utility which
  can be used by scripts to turn host names into numeric
  IP addresses. It supports IPv4 and IPv6 resolving and
@@ -3399,10 +3400,10 @@ Essential: no
 Priority: optional
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 669
+Installed-Size: 667
 Filename: restorefactory_1-6_ar71xx.ipk
-Size: 1351
-MD5Sum: 9ea92e30fba820f9cc98388c4a60f5f2
+Size: 1350
+MD5Sum: e886b6d23a8209a9625f310805413b1c
 Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
  Button and wait time can be configured with a UCI file.
 
@@ -3417,10 +3418,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 914821
+Installed-Size: 914820
 Filename: samba36-server_3.6.5-3_ar71xx.ipk
-Size: 895608
-MD5Sum: 2b540ac4ed24e93d5786b0dd880c1a34
+Size: 895561
+MD5Sum: 293096036f8686622ebda0f8ea39cf60
 Description:  The Samba software suite is a collection of programs that implements the
  SMB protocol for UNIX systems, allowing you to serve files and printers to
  Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
@@ -3437,10 +3438,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 21256
+Installed-Size: 21258
 Filename: swap-utils_2.21.2-1_ar71xx.ipk
-Size: 21851
-MD5Sum: 7253d1274967d0d91c27ab4d1e2e49ec
+Size: 21844
+MD5Sum: b11a0046b74d4cc2585eb7f8496a3e18
 Description:  contains: mkswap, swaplabel, swapon, swapoff
 
 Package: swconfig
@@ -3456,8 +3457,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 10853
 Filename: swconfig_10_ar71xx.ipk
-Size: 11455
-MD5Sum: 945d6d95c6e144ca9f6d60b0dc66cc23
+Size: 11462
+MD5Sum: 9b9c80c8be2347869b9bb1ffeace4d26
 Description:  Switch configuration utility
 
 Package: tc
@@ -3471,10 +3472,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 99628
+Installed-Size: 99629
 Filename: tc_3.3.0-2_ar71xx.ipk
-Size: 100217
-MD5Sum: ea39c5a0dd7cee5d4761682aa60fea5f
+Size: 100219
+MD5Sum: 4a139cdc58dfd12f74a4d59cb32dd393
 Description:  Traffic control utility
 
 Package: tinyproxy
@@ -3488,10 +3489,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 30807
+Installed-Size: 30809
 Filename: tinyproxy_1.8.2-5_ar71xx.ipk
-Size: 31284
-MD5Sum: 97a8d6c7c9b33f9228c2da2386cfd9ad
+Size: 31288
+MD5Sum: 9c4cbc0f117ff3981d66d5c300819a7a
 Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
 
 Package: transmission-daemon
@@ -3505,10 +3506,10 @@ Essential: no
 Priority: optional
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: ar71xx
-Installed-Size: 180054
+Installed-Size: 180057
 Filename: transmission-daemon_2.71-1_ar71xx.ipk
-Size: 179427
-MD5Sum: 1f8ba95b1245f18b155fd7db0f61a748
+Size: 179440
+MD5Sum: 1039fd2bbc99e07591cc97b7b9302707
 Description:  Transmission is a simple BitTorrent client.
  It features a very simple, intuitive interface
  on top on an efficient, cross-platform back-end.
@@ -3525,10 +3526,10 @@ Essential: no
 Priority: optional
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: ar71xx
-Installed-Size: 187901
+Installed-Size: 187902
 Filename: transmission-remote_2.71-1_ar71xx.ipk
-Size: 187466
-MD5Sum: d5fb2cd4ff8d4cc431dd23782a89dac7
+Size: 187465
+MD5Sum: edb8dea8f8d33cf8701fa9e9113cee05
 Description:  CLI remote interface for transmission.
 
 Package: transmission-web
@@ -3542,10 +3543,10 @@ Essential: no
 Priority: optional
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: ar71xx
-Installed-Size: 218357
+Installed-Size: 218365
 Filename: transmission-web_2.71-1_ar71xx.ipk
-Size: 218786
-MD5Sum: 774db3bc43f5e43ac6b6ee1f476888ea
+Size: 219045
+MD5Sum: db0aa8c151407c88c614b06429486b49
 Description:  Webinterface resources for transmission.
 
 Package: ubus
@@ -3559,10 +3560,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 3672
+Installed-Size: 3670
 Filename: ubus_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_ar71xx.ipk
-Size: 4338
-MD5Sum: 2daeb35cffd2298338bdaddfb1bed6b3
+Size: 4337
+MD5Sum: fe210e7a5564bc867d49ad683af2b71f
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
@@ -3578,8 +3579,8 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 7703
 Filename: ubusd_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_ar71xx.ipk
-Size: 8392
-MD5Sum: 8b0bc0c7cb975e04b994a1bb2426963e
+Size: 8390
+MD5Sum: 6159c0339006eb7d8ce42403c0d97c6a
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -3595,12 +3596,12 @@ Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 7068
 Filename: uci_2013-06-11.1-1_ar71xx.ipk
-Size: 7712
-MD5Sum: a627daccf07242c819f7137d4241dfa7
+Size: 7711
+MD5Sum: b14085d33f1d6e402cc4e5188acbaabc
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: usb-modeswitch-data
-Version: 20130610-1
+Version: 20130807-1
 Depends: libc, usb-modeswitch
 Provides: 
 Source: feeds/packages/utils/usb-modeswitch-data
@@ -3610,17 +3611,17 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 14365
-Filename: usb-modeswitch-data_20130610-1_ar71xx.ipk
-Size: 14540
-MD5Sum: febb6ad01c0d8fd9537083e79f0ee2de
+Installed-Size: 14893
+Filename: usb-modeswitch-data_20130807-1_ar71xx.ipk
+Size: 15056
+MD5Sum: 26f5d3274e31ab2c9648e1361e58cc8b
 Description:  Configuration database for usb-modeswitch.
  Contains definitions for many USB devices required to
  autoswitch "flip flop" gear.
 
 Package: usb-modeswitch
-Version: 1.2.6-2
-Depends: libc, libusb
+Version: 2.0.1-2
+Depends: libc, libusb-1.0
 Provides: 
 Source: feeds/packages/utils/usb-modeswitch
 Section: utils
@@ -3629,10 +3630,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 17972
-Filename: usb-modeswitch_1.2.6-2_ar71xx.ipk
-Size: 18692
-MD5Sum: 2d8a32bc6f4e490ed6cbe789eea80561
+Installed-Size: 17954
+Filename: usb-modeswitch_2.0.1-2_ar71xx.ipk
+Size: 18673
+MD5Sum: 3264c1ab44e011b75117f9c5f5020cad
 Description:  A mode switching tool for controlling
  "flip flop" (multiple device) USB gear.
 
@@ -3647,10 +3648,10 @@ Essential: no
 Priority: optional
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: ar71xx
-Installed-Size: 48555
+Installed-Size: 48559
 Filename: vsftpd-tls_3.0.2-1_ar71xx.ipk
-Size: 48852
-MD5Sum: ddba09e214400ce4cf6bbeeffd8e5326
+Size: 48865
+MD5Sum: bb017b93a7171a4d0891b85250ae6d0a
 Description:  A fast and secure FTP server (TLS)
 
 Package: wget
@@ -3664,10 +3665,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 134001
+Installed-Size: 134003
 Filename: wget_1.13.4-1_ar71xx.ipk
-Size: 134097
-MD5Sum: 351320745c32ae16c6c621673ffcbeb4
+Size: 134082
+MD5Sum: 0b7cb8a858ba0b323f846844ac38f5f7
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -3687,10 +3688,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 334516
+Installed-Size: 334515
 Filename: wpad_20130405-1_ar71xx.ipk
-Size: 334682
-MD5Sum: 37bd356c19a3a6168b509e363aec6fe7
+Size: 334647
+MD5Sum: c42a0c518284cf70b59712cf548d6c39
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
@@ -3705,10 +3706,10 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 44631
+Installed-Size: 44635
 Filename: xl2tpd_1.3.1-1_ar71xx.ipk
-Size: 45397
-MD5Sum: 421aa6d0ae62db10a2c44a0815000052
+Size: 45398
+MD5Sum: a1b39f4ce81de1db6b44cbd6eeb5fe90
 Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
  It does implement both LAC and LNS role in a L2TP networking architecture. The
  main goal of this protocol is to tunnel PPP frame trough an IP network.
@@ -3724,9 +3725,9 @@ Essential: no
 Priority: optional
 Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 39858
+Installed-Size: 39859
 Filename: zlib_1.2.7-1_ar71xx.ipk
-Size: 40510
-MD5Sum: f989b0f743e8a76cafc83c6014eab228
+Size: 40515
+MD5Sum: d782040c1a9a0c983ec0d1928cc50197
 Description:  Library implementing the deflate compression method
 
