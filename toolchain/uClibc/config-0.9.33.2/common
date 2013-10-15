@@ -69,7 +69,7 @@ TARGET_SUBARCH=""
 # TARGET_ia64 is not set
 # TARGET_m68k is not set
 # TARGET_microblaze is not set
-# TARGET_mips is not set
+TARGET_mips=y
 # TARGET_nios is not set
 # TARGET_nios2 is not set
 # TARGET_powerpc is not set

@@ -10,7 +10,7 @@ ARCH:=mips
 BOARD:=ar71xx
 BOARDNAME:=Atheros AR7xxx/AR9xxx
 FEATURES:=squashfs jffs2 targz mips16
-CFLAGS:=-Os -pipe -march=24kc -mno-mips16 -mno-branch-likely -fno-caller-saves -mplt -mgp32 -msym32
+CFLAGS:=-Os -pipe -march=24kc -mno-mips16 -mno-branch-likely -fno-caller-saves -mplt -mgp32 -msym32 -mno-explicit-relocs
 SUBTARGETS:=generic nand
 
 LINUX_VERSION:=3.3.8

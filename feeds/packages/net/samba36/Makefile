@@ -110,7 +110,7 @@ CONFIGURE_ARGS += \
 	--without-libaddns \
 	--with-shared-modules=pdb_tdbsam,pdb_wbc_sam,idmap_nss,nss_info_template,auth_winbind,auth_wbc,auth_domain
 
-MAKE_FLAGS += DYNEXP= PICFLAG= MODULES=
+MAKE_FLAGS += DYNEXP= PICFLAG= MODULES= 
 
 define Package/samba36-server/install
 	$(INSTALL_DIR) $(1)/etc/config

@@ -266,7 +266,6 @@ $(call Package/ffmpeg/Default/description)
  This package contains minimal-featured FFmpeg shared libraries.
 endef
 
-
 FFMPEG_CONFIGURE:= \
 	CFLAGS="$(TARGET_CFLAGS) $(TARGET_CPPFLAGS) $(FPIC)" \
 	LDFLAGS="$(TARGET_LDFLAGS)" \
@@ -343,7 +342,7 @@ ifeq ($(BUILD_VARIANT),mini)
 endif
 
 ifneq ($(CONFIG_TARGET_x86),)
-  TARGET_CFLAGS += -fomit-frame-pointer
+  TARGET_CFLAGS += -fomit-frame-pointer 
 endif
 
 define Build/Configure
