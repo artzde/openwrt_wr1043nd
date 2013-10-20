@@ -52,7 +52,6 @@ CONFIGURE_ARGS = \
 		--prefix=/usr \
 		--disable-multilib \
 		--disable-werror \
-		--disable-nls \
 		--enable-shared \
 		$(SOFT_FLOAT_CONFIG_OPTION) \
 		$(call qstrip,$(CONFIG_EXTRA_BINUTILS_CONFIG_OPTIONS))

@@ -57,7 +57,6 @@ define Build/Configure
 		--prefix="/usr" \
 		--sysconfdir="/etc" \
 		--enable-dlna \
-		--disable-nls \
 		--disable-debug \
 	)
 endef

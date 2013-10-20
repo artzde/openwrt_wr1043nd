@@ -55,7 +55,6 @@ define Build/Configure
 			--disable-__cxa_atexit \
 			--enable-target-optspace \
 			--with-gnu-ld \
-			--disable-nls \
 			--disable-libmudflap \
 			--disable-multilib \
 			$(EXTRA_TARGET) \
