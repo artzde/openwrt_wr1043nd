@@ -64,6 +64,7 @@ CONFIGURE_ARGS+= \
 	--disable-iri	\
 	--disable-debug	\
 	--enable-threads=posix	\
+	--disable-nls	\
 
 ifeq ($(BUILD_VARIANT),ssl)
 	CONFIGURE_ARGS+= \
