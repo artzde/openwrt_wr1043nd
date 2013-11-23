@@ -77,6 +77,24 @@ Description:  Provides support for 6to4 tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
 
+Package: aria2
+Version: 1.15.1-1
+Depends: libc, libopenssl, zlib, libxml2, libstdcpp
+Provides: 
+Source: feeds/packages/net/aria2
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 710558
+Filename: aria2_1.15.1-1_ar71xx.ipk
+Size: 708322
+MD5Sum: bb556130aa487f76aef6cfd2ac0d361a
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
 Package: base-files
 Version: 118.2-r38863
 Depends: libc, netifd
@@ -2363,6 +2381,23 @@ Description:  SQLite is a small C library that implements a self-contained, embe
  This package contains the SQLite (v3.x) shared library, used by other
  programs.
 
+Package: libstdcpp
+Version: 4.7-linaro-1
+Depends: 
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 252435
+Filename: libstdcpp_4.7-linaro-1_ar71xx.ipk
+Size: 251194
+MD5Sum: fc69f8679c53d4196edcee860b1976ba
+Description:  GNU Standard C++ Library v3
+
 Package: libubox
 Version: 2013-10-19-734d28eb1a46358743cf8837c91e5d46695c3b91
 Depends: libc
@@ -2509,6 +2544,23 @@ Description:  Vorbis is a general purpose audio and music encoding format
  All the technical details are published and documented, and any
  software entity may make full use of the format without license
  fee, royalty or patent concerns.
+
+Package: libxml2
+Version: 2.7.8-2
+Depends: libc, libpthread, zlib
+Provides: 
+Source: feeds/packages/libs/libxml2
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 479343
+Filename: libxml2_2.7.8-2_ar71xx.ipk
+Size: 476900
+MD5Sum: 5014ed5a318754fbe8a41e5a9bc8a9d8
+Description:  A library for manipulating XML and HTML resources.
 
 Package: libxtables
 Version: 1.4.10-5
